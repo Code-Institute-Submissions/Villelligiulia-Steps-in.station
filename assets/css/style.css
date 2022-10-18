@@ -1,6 +1,6 @@
 
 
-@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Forum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Forum&family=Fuzzy+Bubbles&family=Lobster&family=Lobster+Two:ital@1&display=swap');
 
 *{
     border:none;
@@ -9,9 +9,9 @@
 }
 
  body {
-    font-family: forum, sans-serif; 
+    font-family: 'Lobster Two', cursive;
     font-weight:300; 
-    color: black; 
+    color:; 
  }
 
  /*headings and logo*/
@@ -75,7 +75,7 @@ h1:hover {
 
     #menu-left,#menu-right {
     font-size : 200%;
-    font-family: forum ;
+    
     
     
 }
@@ -93,30 +93,51 @@ h1:hover {
     width:50%;
     height:50px;
     background-color: rgb(237, 135, 104, 0.7);
-    
-    
 }
-
-
-
 #menu-left li {
     border:10px;
     float:left;
     list-style-type: none;
     margin-left: 50px;
-    
-    
-
-    
-    
-    
-
-
 }
+
+
 #menu-right li {
     border-right:10px;
     float:right;
     list-style-type: none;
     margin-right: 50px;
+
     
+}
+    
+
+#menu-left a, #menu-right a {
+    text-decoration:none;
+    color:inherit;
+    font-family:'Lobster Two', cursive;
+    color: rgb(73, 13, 13);
+    padding:30px;
+    
+}
+
+
+
+
+
+
+#menu-left .light-font{
+    color: rgb(128,0,0, 0.6);
+}
+#menu-right .light-font{
+    color: rgb(128,0,0, 0.6);
+}
+
+
+#menu-left  a:hover, #menu-right a:hover {
+    color: rgb(128,0,0, 0.6);
+    font-size: larger;
+}
+#menu-left  .light-font:hover, #menu-right  .light-font:hover {
+    color: rgb(73, 13, 13);
 }
