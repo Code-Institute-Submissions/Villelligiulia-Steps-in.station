@@ -22,7 +22,7 @@ h1 {
     width: 100%;  
     height:30px;
     bottom:20px;
-    ;
+    
     
 }
 #logo {
@@ -120,7 +120,6 @@ h1:hover {
     padding:30px;
     
 }
-  
 
 
 
@@ -141,3 +140,31 @@ h1:hover {
 #menu-left  .light-font:hover, #menu-right  .light-font:hover {
     color: rgb(73, 13, 13);
 }
+
+  /* main section*/
+  #welcome-background{
+    width: 100%;
+    height:600px;
+    background-color:  rgb(183,65,14, 0.8);
+    overflow: hidden;
+    
+  }
+  #image-container {
+    width:1200px;
+    height:600px;
+    margin: 0 auto;
+    
+  }
+
+    
+    
+    
+  h2{
+    font-family:'Lobster Two', cursive; 
+    color:#F0D79E;
+    position:relative;
+    
+    
+    
+
+  }
