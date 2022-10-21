@@ -157,7 +157,7 @@ h1:hover {
     
   }
 
-    #quotes-about {
+    #quotes-about-left-top {
     
         width:100%;
         height:150px;
@@ -165,33 +165,74 @@ h1:hover {
         position:absolute;
         top:20%;
         left:5px;
-        /* border: 3px solid yellow;
-        */
         
+        }
+    #quotes-about-right {
+    
+            width:100%;
+            height:150px;
+            overflow: hidden;
+            position:absolute;
+            
+            right:10px;
+            
+            animation-name: move-about;
+            animation-duration: 7s;
+            animation-fill-mode: forwards;
     }
-    
-    
+    #quote-about-left-bottom {
+        width: 80%;
+         height:200px;
+        
+        position:absolute;
+        top:80%;
+        right:100x;
+        
+        }
+   
   h2{
     font-family:'Lobster Two', cursive; 
     color:whitesmoke;
-    font-size: 60px;
-    animation-name: quote-zoom;
+    animation-name: quote-zoom-left;
     animation-duration: 7s;
     animation-fill-mode: forwards;
     position:absolute;
     
-    
+  }
+  #left-bottom {
+    animation-name:quote-zoom-left-bottom;
+    animation-duration: 7s;
+    animation-fill-mode:forwards;
+    font-size:28px;
+    padding:5%;
+  }
+  h3{font-family:'Lobster Two', cursive; 
+    color:whitesmoke;
+    animation-name: quote-zoom-right;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    position:absolute;
+
   }
     
     /*creates animation for quotes*/
-    @keyframes quote-zoom {
-        0% { font-size: 40px; left:10px;top:10px; color:black}
-        100% { font-size:60px; left:50px;top:50px; color:whitesmoke}
+    @keyframes quote-zoom-left {
+        0% {font-size:30px;left:10px;top:10px; color:black}
+        100% {font-size:40px;left:50px;top:50px; color:whitesmoke}
+    }
+
+        @keyframes quote-zoom-left-bottom {
+            0% {  left:10px;top:10px; color:black}
+            100% {  left:50px;top:50px; color:whitesmoke}
         
     }
-    
-    
-    
-    
+    @keyframes quote-zoom-right {
+        0% { font-size: 40px; right:0px; color:black}
+        100% { font-size:45px;right:50px; color:whitesmoke}
 
+  }
+  @keyframes move-about {
+    0% {right:10px;top:50%}
+    100% {right:30px;top:60%;}
+    
   }
