@@ -1,238 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Donegal+One&family=Forum&family=Lobster&family=Lobster+Two:ital@1&family=Open+Sans:ital@1&family=Raleway:ital,wght@0,600;1,300&family=Sail&family=Style+Script&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Forum&family=Fuzzy+Bubbles&family=Lily+Script+One&family=Lobster&family=Lobster+Two:ital@1&display=swap');
-*{
-    border:none;
-    margin:0;
-    padding: 0;
+* {
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
- body {
-    font-family: 'Lobster Two', cursive;
-    font-weight:300; 
-    color:; 
- }
+body {
+  font-family: 'Lobster Two', cursive;
+  font-weight: 300;
+  
+}
 
- /*headings and logo*/
+/*headings and logo*/
 
 
 h1 {
-    background-color:rgb(73, 13, 13);
-    width: 100%;  
-    height:30px;
-    bottom:20px;
-    
-    
+  background-color: rgb(73, 13, 13);
+  width: 100%;
+  height: 30px;
+  bottom: 20px;
+
+
 }
+
 #logo {
-    color: #B3503E;
-    text-align: center;
-    padding:30px;
+  color: #B3503E;
+  text-align: center;
+  padding: 30px;
 }
 
 #steps {
-    font-size: 50px;
-    position: absolute;
-    top: 38px;
-    left:43%;
-    border:solid;
-    border-color: rgb(128,0,0, 0.6);
-    border-width:5px;
-    border-height:5px;
-    border-radius:50%;
-    padding:20px;
+  font-size: 50px;
+  position: absolute;
+  top: 38px;
+  left: 43%;
+  border: solid;
+  border-color: rgb(128, 0, 0, 0.6);
+  border-width: 5px;
+  border-radius: 50%;
+  padding: 20px;
 
 }
 
 
-#smaller-steps{
-    font-size: smaller;
-    color:#ED8768;
-    
-}
-h1:hover {
-    background-color: rgb(73, 13, 13);
+#smaller-steps {
+  font-size: smaller;
+  color: #ED8768;
 
 }
-#steps:hover{
-    font-size:50px;
+
+#steps:hover {
+  font-size: 50px;
 }
-#smaller-steps:hover{
-    font-size: 60px;
+
+#smaller-steps:hover {
+  font-size: 60px;
 }
 
 
 #menu-left:hover {
-    background-color:  #F59F78;
+  background-color: #F59F78;
 }
+
 #menu-right:hover {
-    background-color:  #F59F78;
+  background-color: #F59F78;
 }
 
-    
 
 
-    #menu-left,#menu-right {
-    font-size : 200%;
-    
-    
-    
-}
+
+#menu-left,
 #menu-right {
-    float:right;
-    width:50%;
-    height:50px;
-    margin-right:none;
-    background-color: rgb(237, 135, 104, 0.7);
-    
-    
+  font-size: 200%;
+
+
+
 }
+
+#menu-right {
+  float: right;
+  width: 50%;
+  height: 50px;
+  margin-right: none;
+  background-color: rgb(237, 135, 104, 0.7);
+
+
+}
+
 #menu-left {
-    float:left;
-    width:50%;
-    height:50px;
-    background-color: rgb(237, 135, 104, 0.7);
+  float: left;
+  width: 50%;
+  height: 50px;
+  background-color: rgb(237, 135, 104, 0.7);
 }
+
 #menu-left li {
-    border:10px;
-    float:left;
-    list-style-type: none;
-    margin-left: 50px;
+  border: 10px;
+  float: left;
+  list-style-type: none;
+  margin-left: 50px;
 }
 
 
 #menu-right li {
-    border-right:10px;
-    float:right;
-    list-style-type: none;
-    margin-right: 50px;
+  border-right: 10px;
+  float: right;
+  list-style-type: none;
+  margin-right: 50px;
 
-    
-}
-    
 
-#menu-left a, #menu-right a {
-    text-decoration:none;
-    color:inherit;
-    font-family:'Lobster Two', cursive;
-    color: rgb(73, 13, 13);
-    padding:30px;
-    
 }
 
 
+#menu-left a,
+#menu-right a {
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Lobster Two', cursive;
+  color: rgb(73, 13, 13);
+  padding: 30px;
 
-
-
-#menu-left .light-font{
-    color: rgb(128,0,0, 0.6);
-}
-#menu-right .light-font{
-    color: rgb(128,0,0, 0.6);
-}
-
-
-#menu-left  a:hover, #menu-right a:hover {
-    color: rgb(128,0,0, 0.6);
-    font-size: larger;
-}
-#menu-left  .light-font:hover, #menu-right  .light-font:hover {
-    color: rgb(73, 13, 13);
 }
 
-  /* main section*/
-  #welcome-background{
-    width: 100%;
-    height:600px;
-    background-color:  rgb(183,65,14, 0.8);
-    overflow: hidden;
-    
-    
-  }
-  #image-container {
-    width:1200px;
-    height:600px;
-    margin: 0 auto;
-    
-    
+
+
+
+
+#menu-left .light-font {
+  color: rgb(128, 0, 0, 0.6);
+}
+
+#menu-right .light-font {
+  color: rgb(128, 0, 0, 0.6);
+}
+
+
+#menu-left a:hover,
+#menu-right a:hover {
+  color: rgb(128, 0, 0, 0.6);
+  font-size: larger;
+}
+
+#menu-left .light-font:hover,
+#menu-right .light-font:hover {
+  color: rgb(73, 13, 13);
+}
+
+/* welcome section*/
+#welcome-background {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(183, 65, 14, 0.8);
+
+
+
+}
+
+#image-container {
+  width: 1200px;
+  height: 600px;
+  margin: 0 auto;
+
+
+}
+
+#quotes-about-left-top {
+
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+  top: 20%;
+  left: 5px;
+
+}
+
+#quotes-about-right {
+
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+
+  right: 10px;
+
+  animation-name: move-about;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+}
+
+#quote-about-left-bottom {
+  width: 80%;
+  height: 200px;
+
+  position: absolute;
+  top: 80%;
+  right: 100x;
+
+}
+
+h2 {
+  font-family: 'Lobster Two', cursive;
+  color: whitesmoke;
+  animation-name: quote-zoom-left;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  position: absolute;
+
+}
+
+#left-bottom {
+  animation-name: quote-zoom-left-bottom;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  font-size: 28px;
+  padding: 5%;
+}
+
+#right-quote {
+  font-family: 'Lobster Two', cursive;
+  color: whitesmoke;
+  animation-name: quote-zoom-right;
+  animation-duration: 7s;
+  animation-fill-mode: forwards;
+  position: absolute;
+
+}
+
+/*creates animation for quotes on welcome section*/
+@keyframes quote-zoom-left {
+  0% {
+    font-size: 30px;
+    left: 10px;
+    top: 10px;
+    color: black
   }
 
-    #quotes-about-left-top {
-    
-        width:100%;
-        height:150px;
-        overflow: hidden;
-        position:absolute;
-        top:20%;
-        left:5px;
-        
-        }
-    #quotes-about-right {
-    
-            width:100%;
-            height:150px;
-            overflow: hidden;
-            position:absolute;
-            
-            right:10px;
-            
-            animation-name: move-about;
-            animation-duration: 7s;
-            animation-fill-mode: forwards;
-    }
-    #quote-about-left-bottom {
-        width: 80%;
-         height:200px;
-        
-        position:absolute;
-        top:80%;
-        right:100x;
-        
-        }
-   
-  h2{
-    font-family:'Lobster Two', cursive; 
-    color:whitesmoke;
-    animation-name: quote-zoom-left;
-    animation-duration: 7s;
-    animation-fill-mode: forwards;
-    position:absolute;
-    
+  100% {
+    font-size: 40px;
+    left: 50px;
+    top: 50px;
+    color: whitesmoke
   }
-  #left-bottom {
-    animation-name:quote-zoom-left-bottom;
-    animation-duration: 7s;
-    animation-fill-mode:forwards;
-    font-size:28px;
-    padding:5%;
-  }
-  h3{font-family:'Lobster Two', cursive; 
-    color:whitesmoke;
-    animation-name: quote-zoom-right;
-    animation-duration: 7s;
-    animation-fill-mode: forwards;
-    position:absolute;
+}
 
+@keyframes quote-zoom-left-bottom {
+  0% {
+    left: 10px;
+    top: 10px;
+    color: black
   }
-    
-    /*creates animation for quotes*/
-    @keyframes quote-zoom-left {
-        0% {font-size:30px;left:10px;top:10px; color:black}
-        100% {font-size:40px;left:50px;top:50px; color:whitesmoke}
-    }
 
-        @keyframes quote-zoom-left-bottom {
-            0% {  left:10px;top:10px; color:black}
-            100% {  left:50px;top:50px; color:whitesmoke}
-        
-    }
-    @keyframes quote-zoom-right {
-        0% { font-size: 40px; right:0px; color:black}
-        100% { font-size:45px;right:50px; color:whitesmoke}
+  100% {
+    left: 60px;
+    top: 40px;
+    color: whitesmoke
+  }
 
+}
+
+@keyframes quote-zoom-right {
+  0% {
+    font-size: 40px;
+    right: 0px;
+    color: black
   }
-  @keyframes move-about {
-    0% {right:10px;top:50%}
-    100% {right:30px;top:60%;}
-    
+
+  100% {
+    font-size: 45px;
+    right: 50px;
+    color: whitesmoke
   }
+
+}
+
+@keyframes move-about {
+  0% {
+    right: 10px;
+    top: 50%;
+  }
+
+  100% {
+    right: 30px;
+    top: 60%;
+  }
+
+}
+
+/*Step-counts-introduction section*/
+#hero-background {
+  width: 100%;
+  height: 1300px;
+  background-color: rgb(245, 238, 238);
+
+}
+
+#step-counts-heading {
+  width: 100%;
+  height: 430px;
+  background-color: white;
+  position: absolute;
+
+  top: 810px;
+
+}
+
+.step-counts {
+  font-family: sail;
+  color: rgb(73, 13, 13);
+  background-color: white;
+  font-size: 120px;
+  text-align: center;
+  padding: 25px;
+
+}
+
+.step-counts-intro {
+  width: 70%;
+  font-size: 20px;
+  color: rgb(138, 121, 93);
+  font-family: Open Sans;
+  text-align: center;
+  position: relative;
+  left: 16%;
+  top: 75px;
+  padding: 8px;
+
+}
+
+/*hero section*/
+
+#hero-box-left {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  top: 1240px;
+  animation-name: walking-from-left;
+  animation-duration: 15s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+}
+
+#hero-box-right {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  right: 0;
+  top: 1630px;
+  animation-name: walking-from-right;
+  animation-duration: 15s;
+  animation-delay: 10s;
+  animation-fill-mode: forwards;
+}
+
+
+
+
+h4 {
+  font-size: 25px;
+  font-family: lobster two;
+  color: rgb(73, 13, 13);
+}
+
+
+p {
+  color: rgb(57, 49, 35);
+  font-weight: 5px bold;
+  font-size: 20px;
+  font-family: Raleway
+}
+
+.step-counts-left-pbox {
+  width: 73%;
+  height: 380px;
+  padding: 10px 0 0 20px;
+  background-color: rgb(245, 238, 238, 0.6);
+  position: absolute;
+  top: 1240px;
+
+}
+
+.step-counts-right-pbox {
+  width: 73%;
+  height: 600px;
+  background-color: rgb(245, 238, 238, 0.6);
+  position: absolute;
+  right: 0;
+  top: 1625px;
+}
+
+.step-counts-p {
+  color: rgb(167, 85, 2);
+  font-family: Open Sans;
+  font-weight: bold;
+}
+
+#walking-from-right {
+  animation-name: walking-from-right;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+}
+
+/*animation for hero section*/
+@keyframes walking-from-left {
+  0% {
+    left: 0px;
+  }
+
+  100% {
+    left: 950px;
+  }
+
+}
+
+@keyframes walking-from-right {
+  0% {
+    right: 20px;
+  }
+
+  100% {
+    right: 940px;
+  }
+
+}
