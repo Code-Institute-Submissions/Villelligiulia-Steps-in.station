@@ -384,11 +384,11 @@ p {
 
 .step-counts-right-pbox {
   width: 73%;
-  height: 600px;
+  height: 568px;
   background-color: rgb(245, 238, 238, 0.6);
   position: absolute;
   right: 0;
-  top: 1625px;
+  top: 1622px;
 }
 
 .step-counts-p {
@@ -423,5 +423,54 @@ p {
   100% {
     right: 940px;
   }
+}
+  
+  /*footer*/
+  #footer-box {
+    width: 100%;
+    height:130px;
+    background:url('/../assets/image/pexels-min-an-723997.jpg') repeat center/cover;
+  
+  }
+  
+
+  
+#footer-up{
+  background-color: rgb(237, 135, 104, 0.7);;
+  width: 100%;
+  height: 40px;
+  
+}
+#footer-down{
+  background-color:  rgb(73, 13, 13); 
+  width:100%;
+  height:50px;
+}
+.social-networks {
+  text-align: center;
+
+}
+.social-networks li {
+  display: inline;
+}
+
+.social-networks i{
+  color: rgb(128, 0, 0, 0.6);;
+  font-size: 30px;
+  line-height: 40px;
+  margin-right:4%;
+
+}
+
+/*add decoration to footer*/
+.social-networks i:hover {
+  color: rgb(73, 13, 13);
+  font-size: 40px;
+}
+.social-networks .dark {
+  color: rgb(73, 13, 13);
+}
+.social-networks .dark:hover {
+  color: rgb(128, 0, 0, 0.6);
 
 }
