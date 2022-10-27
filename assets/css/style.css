@@ -9,7 +9,7 @@
 body {
   font-family: 'Lobster Two', cursive;
   font-weight: 300;
-  
+
 }
 
 /*headings and logo*/
@@ -42,8 +42,10 @@ h1 {
   padding: 20px;
 
 }
+
 .active {
-  border-bottom: rgb(128, 0, 0, 0.6); ;
+  border-bottom: rgb(128, 0, 0, 0.6);
+  ;
 }
 
 
@@ -203,7 +205,7 @@ h1 {
 
 }
 
-h2 {
+.left-quote {
   font-family: 'Lobster Two', cursive;
   color: whitesmoke;
   animation-name: quote-zoom-left;
@@ -267,7 +269,7 @@ h2 {
   0% {
     font-size: 40px;
     right: 0px;
-    color: black
+    color: black;
   }
 
   100% {
@@ -427,41 +429,47 @@ p {
     right: 940px;
   }
 }
-  
-  /*footer*/
-  #footer-box {
-    width: 100%;
-    height:130px;
-    background:url('/../assets/image/pexels-min-an-723997.jpg') repeat center/cover;
-  
-  }
-  
 
-  
-#footer-up{
-  background-color: rgb(237, 135, 104, 0.7);;
+/*footer*/
+#footer-box {
+  width: 100%;
+  height: 130px;
+  background: url('/../assets/image/pexels-min-an-723997.jpg') repeat center/cover;
+
+
+}
+
+
+
+#footer-up {
+  background-color: rgb(237, 135, 104, 0.7);
   width: 100%;
   height: 40px;
-  
+
 }
-#footer-down{
-  background-color:  rgb(73, 13, 13); 
-  width:100%;
-  height:50px;
+
+#footer-down {
+  background-color: rgb(73, 13, 13);
+  width: 100%;
+  height: 50px;
+
 }
+
 .social-networks {
   text-align: center;
 
 }
+
 .social-networks li {
   display: inline;
 }
 
-.social-networks i{
-  color: rgb(128, 0, 0, 0.6);;
+.social-networks i {
+  color: rgb(128, 0, 0, 0.6);
+  ;
   font-size: 30px;
   line-height: 40px;
-  margin-right:4%;
+  margin-right: 4%;
 
 }
 
@@ -470,10 +478,63 @@ p {
   color: rgb(73, 13, 13);
   font-size: 40px;
 }
+
 .social-networks .dark {
   color: rgb(73, 13, 13);
 }
+
 .social-networks .dark:hover {
   color: rgb(128, 0, 0, 0.6);
 
 }
+
+/*just few steps*/
+hr {
+  height: 20px;
+}
+
+#app-intro {
+  margin: 70px;
+}
+
+#app-intro p {
+  font-style: italic;
+  font-weight: 5px bold;
+
+}
+
+#slogan {
+  width: 100%;
+  font-size: 30px;
+  color: rgb(73, 13, 13);
+  font-family: Raleway;
+  font-style: italic;
+  text-align: center;
+
+
+
+
+
+
+}
+
+#dots-like {
+  position: absolute;
+  bottom: -32px;
+  left: 62%;
+  animation-name: dots-like;
+  animation-iteration-count:  infinite;
+  animation-duration: 2s;
+  
+}
+
+@keyframes dots-like {
+  0% {
+    color: rgb(0, 0, 0);
+  }
+
+  100% {
+    color: rgba(0, 0, 0, 0);
+  }
+}
+
