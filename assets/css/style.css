@@ -487,8 +487,9 @@ p {
   color: rgb(128, 0, 0, 0.6);
 
 }
+/*end of index.html*/
 
-/*just few steps*/
+/*just few steps heading*/
 hr {
   height: 20px;
 }
@@ -504,12 +505,17 @@ hr {
 }
 
 #slogan {
-  width: 100%;
+  
   font-size: 30px;
   color: rgb(73, 13, 13);
   font-family: Raleway;
   font-style: italic;
+  
+  display: inline;
+  
+  margin:200px 0 0 40%;
   text-align: center;
+  
 
 
 
@@ -518,14 +524,25 @@ hr {
 
 }
 
-#dots-like {
-  position: absolute;
-  bottom: -32px;
-  left: 62%;
+.dots-like {
+  display: inline;
+  
+  margin:0 auto;
+  text-align: center;
+  
+  
   animation-name: dots-like;
   animation-iteration-count:  infinite;
   animation-duration: 2s;
   
+}
+#dots-like2{
+  
+  animation-delay: 0.5s;
+}
+#dots-like3{
+  
+  animation-delay: 1s;
 }
 
 @keyframes dots-like {
@@ -538,3 +555,15 @@ hr {
   }
 }
 
+/*step counts instructions*/
+#instructions-box{
+  height:2000px;
+  width: 100%;
+  border:2px solid tomato;
+  background-color:  rgb(245, 238, 238, 0.6);
+  margin-top:50px;
+}
+#instructions-box li{
+  color:rgb(73, 13, 13);
+  font-size: 30px;
+}
