@@ -36,7 +36,7 @@ h1 {
   top: 38px;
   left: 43%;
   border: solid;
-  border-color: rgb(128, 0, 0, 0.6);
+  
   border-width: 5px;
   border-radius: 50%;
   padding: 20px;
@@ -557,13 +557,70 @@ hr {
 
 /*step counts instructions*/
 #instructions-box{
-  height:2000px;
-  width: 100%;
+  height:3000px;
+  width: 70%;
+  text-align: center;
+  clear: both;
+  margin: 0 auto;
   border:2px solid tomato;
-  background-color:  rgb(245, 238, 238, 0.6);
+  background-color: rgb(245, 238, 238);
   margin-top:50px;
+  text-align: center;
+  
+
 }
 #instructions-box li{
+  
   color:rgb(73, 13, 13);
   font-size: 30px;
+  text-align: center;
+  clear:both;
+  margin:0 auto;
+  width:33%;
+  border-bottom: 2px solid #B3503E ;
+  border-bottom-width: 3px;
+  list-style-type: none;
+  
+}
+#instructions-box ul p{
+  color: rgb(138, 121, 93)
+}
+
+.round-pic{
+  width:300px;
+  height:300px;
+  border-radius: 50%;
+}
+
+.zoom-instructions {
+  animation-name: zoom-instructions;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+#zoom-quote {
+  animation-name:zoom-quote;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+
+}
+
+/*animation instructions */
+
+  
+
+@keyframes zoom-instructions {
+  0%{font-size:25px; }
+  100%{font-size: 30px;}
+  
+}
+@keyframes zoom-quote {
+  0% {color:#ED8768}
+  
+  
+  50%{ color:#772c2c}
+  
+  
+  100% {color:#ED8768}
+
 }
