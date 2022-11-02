@@ -709,27 +709,46 @@ hr {
 #wic-slogan {
   font-size: 50px;
   text-align: center;
-  padding:70px;
+  padding-top:70px;
 }
 #wic-box { 
 
   border:2px solid tomato; 
-
   height: 900px; 
-
   width:100%; 
-
-     
+  background-color: #F59F78;
+  border-left: 15%;
 
   } 
-  .reasons
-   {
+  #video-container{
+    height:800px;
+    width:800px;
+    border:2px solid tomato;
+    position: absolute;
+    left: 18%;
+    
+    
+  }
+  #video {
+    border:2px solid blue;
+    position:relative;
+    bottom:90px;
+    
+    
+  }
+    
+  .reasons{
+   
     height:40px;
     width:100%;
     color:whitesmoke;
     font-size: 30px;
-    background-color: #F59F78;
+    
+    
+    
+    
   }
+  
 
   .text,input { 
 
@@ -748,4 +767,11 @@ input:checked ~ .text {
 
  
 
- 
+ #r1 {
+  width: 30%;
+  position:absolute;
+  
+  left:50%;
+  top:830px;
+
+ }
