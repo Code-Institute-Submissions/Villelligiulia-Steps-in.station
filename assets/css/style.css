@@ -698,3 +698,16 @@ hr {
   0%{font-size:30px; }
   100%{font-size: 35px;}
 }
+/*why it counts.html*/
+#why-it-counts-title {
+  font-size: 40px;
+  position: absolute;
+  top:200px;
+  right:750px;
+  display: inline;
+}
+#wic-slogan {
+  font-size: 50px;
+  text-align: center;
+  padding:70px;
+}
