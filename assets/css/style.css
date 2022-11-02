@@ -711,3 +711,41 @@ hr {
   text-align: center;
   padding:70px;
 }
+#wic-box { 
+
+  border:2px solid tomato; 
+
+  height: 900px; 
+
+  width:100%; 
+
+     
+
+  } 
+  .reasons
+   {
+    height:40px;
+    width:100%;
+    color:whitesmoke;
+    font-size: 30px;
+    background-color: #F59F78;
+  }
+
+  .text,input { 
+
+    display: none; 
+
+ 
+ 
+
+  } 
+
+input:checked ~ .text { 
+
+  display:inline; 
+
+} 
+
+ 
+
+ 
