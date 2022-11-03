@@ -740,7 +740,7 @@ hr {
   .reasons{
    
     height:40px;
-    width:100%;
+    width:30%;
     color:whitesmoke;
     font-size: 30px;
     
@@ -768,10 +768,60 @@ input:checked ~ .text {
  
 
  #r1 {
-  width: 30%;
+  
   position:absolute;
   
   left:50%;
-  top:830px;
+  top:790px;
 
+ }
+ #r10{
+  position:absolute;
+  
+  left:50%;
+  top:1200px;
+
+
+ }
+ #r2 {
+  position:absolute;
+  left:37%;
+  top:845px;
+ }
+ #r3{
+  position:absolute;
+  left:63%;
+  top:845px;
+ }
+ #r4{
+  position: absolute;
+  left:28%;
+  top:949px;
+ }
+ #r5{
+  position: absolute;
+  left:71%;
+  top:949px;
+ }
+ #r6{
+  position: absolute;
+  left:27.5%;
+  top:1085px;
+
+ }
+ #r7{
+  position:absolute;
+  left:71%;
+  top:1085px;
+ }
+ #r8{
+  position:absolute;
+  left:37%;
+  top:1170px;
+
+ }
+ #r9{
+  position:absolute;
+  left:64%;
+  top:1170px;
  }
