@@ -713,8 +713,8 @@ hr {
 }
 #wic-box { 
 
-  border:2px solid tomato; 
-  height: 900px; 
+  
+  height: 700px; 
   width:100%; 
   background-color: #F59F78;
   border-left: 15%;
@@ -723,14 +723,14 @@ hr {
   #video-container{
     height:800px;
     width:800px;
-    border:2px solid tomato;
+    
     position: absolute;
     left: 18%;
     
     
   }
   #video {
-    border:2px solid blue;
+    
     position:relative;
     bottom:90px;
     
@@ -740,14 +740,22 @@ hr {
   .reasons{
    
     height:40px;
-    width:30%;
-    color:whitesmoke;
+    width:23%;
+    color:#772c2c;
     font-size: 30px;
     
     
     
     
+    
   }
+  .text {
+    color: rgb(237, 135, 104, 1);
+    background-color: white;
+    font-size: 23px;
+  }
+    
+    
   
 
   .text,input { 
@@ -773,6 +781,7 @@ input:checked ~ .text {
   
   left:50%;
   top:790px;
+  z-index: 4;
 
  }
  #r10{
@@ -787,26 +796,32 @@ input:checked ~ .text {
   position:absolute;
   left:37%;
   top:845px;
+  z-index: 3;
+  
  }
  #r3{
   position:absolute;
   left:63%;
   top:845px;
+  z-index: 3;
  }
  #r4{
   position: absolute;
   left:28%;
   top:949px;
+  ;
  }
  #r5{
   position: absolute;
   left:71%;
   top:949px;
+  z-index: 2;
  }
  #r6{
   position: absolute;
   left:27.5%;
   top:1085px;
+  z-index: 3;
 
  }
  #r7{
@@ -818,6 +833,7 @@ input:checked ~ .text {
   position:absolute;
   left:37%;
   top:1170px;
+  z-index: 2;
 
  }
  #r9{
