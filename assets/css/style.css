@@ -7,27 +7,31 @@
 }
 
 body {
-  font-family: 'Lobster Two', cursive;
+  font-family: Raleway, open Sans;
   font-weight: 300;
+  color: bisque;
 
 }
 
 /*headings and logo*/
 
-
-h1 {
+#top-page {
   background-color: rgb(73, 13, 13);
   width: 100%;
-  height: 30px;
-  bottom: 20px;
+  height: 90px;
+   bottom: 20px; }
 
 
-}
+
 
 #logo {
   color: #B3503E;
   text-align: center;
   padding: 30px;
+  background-color: rgb(73, 13, 13);
+  width: 100%;
+  height: 30px;
+   bottom: 20px;
 }
 
 #steps {
@@ -55,20 +59,20 @@ h1 {
 
 }
 
-#steps:hover {
+#steps:focus {
   font-size: 50px;
 }
 
-#smaller-steps:hover {
+#smaller-steps:focus {
   font-size: 60px;
 }
 
 
-#menu-left:hover {
+#menu-left:focus {
   background-color: #F59F78;
 }
 
-#menu-right:hover {
+#menu-right:focus {
   background-color: #F59F78;
 }
 
@@ -87,6 +91,7 @@ h1 {
   float: right;
   width: 50%;
   height: 50px;
+
   margin-right: none;
   background-color: rgb(237, 135, 104, 0.7);
 
@@ -141,14 +146,14 @@ h1 {
 }
 
 
-#menu-left a:hover,
-#menu-right a:hover {
+#menu-left a:focus,
+#menu-right a:focus {
   color: rgb(128, 0, 0, 0.6);
   font-size: larger;
 }
 
-#menu-left .light-font:hover,
-#menu-right .light-font:hover {
+#menu-left .light-font:focus,
+#menu-right .light-font:focus {
   color: rgb(73, 13, 13);
 }
 
@@ -318,6 +323,9 @@ h1 {
   font-size: 120px;
   text-align: center;
   padding: 25px;
+  width: 100%;
+  height: 30px;
+   bottom: 20px;
 
 }
 
@@ -474,7 +482,7 @@ p {
 }
 
 /*add decoration to footer*/
-.social-networks i:hover {
+.social-networks i:focus {
   color: rgb(73, 13, 13);
   font-size: 40px;
 }
@@ -483,7 +491,7 @@ p {
   color: rgb(73, 13, 13);
 }
 
-.social-networks .dark:hover {
+.social-networks .dark:on-focus {
   color: rgb(128, 0, 0, 0.6);
 
 }
@@ -718,8 +726,8 @@ hr {
   
 
 }
-hr {
-  height:42px;
+#hr-why-it-counts {
+  height:62px;
 }
 #icon-directive-box-left{
   height:300px;
@@ -802,7 +810,7 @@ hr {
 
   .text,input { 
 
-    display: none; 
+    visibility: hidden; 
 
  
  
@@ -810,6 +818,7 @@ hr {
   } 
 
 input:checked ~ .text { 
+  visibility: visible;
 
   display:inline; 
 
@@ -886,3 +895,36 @@ input:checked ~ .text {
  }
 
  /*sign-up.html*/
+ #sign-up-title-box{
+  width: 100%;
+  height: 130px;
+ }
+ #dowload-app-box{
+  width:100%;
+  height:300px;
+ }
+ #sign-up-background{
+  width:100%;
+  height:800px;
+  text-align: center;
+  background-color: #F59F78;
+  
+ }
+
+ #sign-up-box{
+
+ width:20%;
+height:300px;
+border:2px solid white;
+background-color: rgba(242, 241, 241, 0.326);
+text-align: left;
+position: absolute;
+left:65%;
+top:600px;
+}
+
+ .sign-up {
+  visibility: visible ;
+  display:block;
+  height: 20;
+}
