@@ -708,8 +708,47 @@ hr {
 }
 #wic-slogan {
   font-size: 50px;
+  width:40%;
   text-align: center;
+  clear:both;
+  margin:0 auto;
   padding-top:70px;
+  border-bottom: #772c2c 4px double;
+  border-bottom-width: 30%
+  
+
+}
+hr {
+  height:42px;
+}
+#icon-directive-box-left{
+  height:300px;
+  background-color: white;
+  width: 15%;
+  float:left;
+  border: #772c2c 6px double;
+  border-top:none;
+  border-left: none;
+  
+  
+  ;}
+#icon-directive-box-right{
+  height:300px;
+  background-color: white;
+  width: 15%;
+  float:right;
+  border: #772c2c 6px double;
+  border-top:none;
+  border-right: none;
+  
+  }
+.icon-directive{
+  
+  font-size: 28px;
+  color: rgb(138, 121, 93);
+  font-family: lobster two;
+  padding: 8px;
+  text-align: center;
 }
 #wic-box { 
 
@@ -718,8 +757,11 @@ hr {
   width:100%; 
   background-color: #F59F78;
   border-left: 15%;
+  
+
 
   } 
+  
   #video-container{
     height:800px;
     width:800px;
@@ -775,69 +817,70 @@ input:checked ~ .text {
 
  
 
- #r1 {
+ #reason1 {
   
   position:absolute;
   
   left:50%;
-  top:790px;
+  top:720px;
   z-index: 4;
 
  }
- #r10{
+ #reason10{
   position:absolute;
   
   left:50%;
-  top:1200px;
+  top:1130px;
 
 
  }
- #r2 {
+ #reason2 {
   position:absolute;
   left:37%;
-  top:845px;
+  top:775px;
   z-index: 3;
   
  }
- #r3{
+ #reason3{
   position:absolute;
   left:63%;
-  top:845px;
+  top:775px;
   z-index: 3;
  }
- #r4{
+ #reason4{
+  
   position: absolute;
   left:28%;
-  top:949px;
+  top:839px;
   ;
  }
- #r5{
+ #reason5{
   position: absolute;
   left:71%;
-  top:949px;
+  top:839px;
   z-index: 2;
  }
- #r6{
+ #reason6{
   position: absolute;
-  left:27.5%;
-  top:1085px;
+  left:28%;
+  top:1015px;
   z-index: 3;
 
  }
- #r7{
+ #reason7{
   position:absolute;
   left:71%;
-  top:1085px;
+  top:1015px;
  }
- #r8{
+ #reason8{
   position:absolute;
   left:37%;
-  top:1170px;
+  top:1100px;
   z-index: 2;
 
  }
- #r9{
+ #reason9{
   position:absolute;
   left:64%;
-  top:1170px;
+  top:1100px;
  }
