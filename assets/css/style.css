@@ -59,20 +59,20 @@ body {
 
 }
 
-#steps:focus {
+#steps:hover {
   font-size: 50px;
 }
 
-#smaller-steps:focus {
+#smaller-steps:hover {
   font-size: 60px;
 }
 
 
-#menu-left:focus {
+#menu-left:hover {
   background-color: #F59F78;
 }
 
-#menu-right:focus {
+#menu-right:hover {
   background-color: #F59F78;
 }
 
@@ -146,14 +146,14 @@ body {
 }
 
 
-#menu-left a:focus,
-#menu-right a:focus {
+#menu-left a:hover,
+#menu-right a:hover{
   color: rgb(128, 0, 0, 0.6);
   font-size: larger;
 }
 
-#menu-left .light-font:focus,
-#menu-right .light-font:focus {
+#menu-left .light-font:hover,
+#menu-right .light-font:hover{
   color: rgb(73, 13, 13);
 }
 
@@ -379,7 +379,7 @@ h4 {
 
 
 p {
-  color: rgb(57, 49, 35);
+  color: rgb(78, 63, 36);
   font-weight: 5px bold;
   font-size: 20px;
   font-family: Raleway
@@ -482,7 +482,7 @@ p {
 }
 
 /*add decoration to footer*/
-.social-networks i:focus {
+.social-networks i:hover {
   color: rgb(73, 13, 13);
   font-size: 40px;
 }
@@ -491,7 +491,7 @@ p {
   color: rgb(73, 13, 13);
 }
 
-.social-networks .dark:on-focus {
+.social-networks .dark:hover {
   color: rgb(128, 0, 0, 0.6);
 
 }
@@ -598,7 +598,7 @@ hr {
   
 }
 #instructions-box ul p{
-  color: rgb(138, 121, 93)
+  color:rgb(73, 13, 13);
 }
 
 .round-pic{
@@ -913,18 +913,55 @@ input:checked ~ .text {
 
  #sign-up-box{
 
- width:20%;
+ width:40%;
 height:300px;
-border:2px solid white;
+border:4px double bisque;
+border-radius: 30%;
 background-color: rgba(242, 241, 241, 0.326);
-text-align: left;
-position: absolute;
-left:65%;
-top:600px;
-}
+border-radius: 30px;
+
+position:absolute;
+top:550px;
+left:30%;
+
+
+;
+ }
+ #legend {
+  font-size: 30px;
+ }
+
 
  .sign-up {
   visibility: visible ;
   display:block;
   height: 20;
+
+  border:2px solid bisque;
+  color: #772c2c;
+  font-size: 20px;
+  
+  border-radius: 10px;
+  padding:2%;
+  clear: both;
+  margin:0 auto;
+}
+ :placeholder-shown {
+  
+  background-color: transparent;
+  color:#772c2c;
+  padding: 2%;
+ }
+ ::placeholder {
+  color: bisque;
+ }
+ input:focus::placeholder {
+  background-color: bisque;
+  color: #772c2c;
+ }
+ #button{
+  background-color: transparent;
+  color:bisque;
+ }
+  
 }
