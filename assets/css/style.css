@@ -964,4 +964,7 @@ left:30%;
   color:bisque;
  }
   
+.sign-up:hover, #button:hover {
+  background-color: #772c2c;
+  color: bisque;
 }
