@@ -19,10 +19,7 @@ body {
   background-color: rgb(73, 13, 13);
   width: 100%;
   height: 90px;
-   bottom: 20px; }
-
-
-
+}
 
 #logo {
   color: #B3503E;
@@ -31,7 +28,6 @@ body {
   background-color: rgb(73, 13, 13);
   width: 100%;
   height: 30px;
-   bottom: 20px;
 }
 
 #steps {
@@ -40,23 +36,14 @@ body {
   top: 38px;
   left: 43%;
   border: solid;
-  
   border-width: 5px;
   border-radius: 50%;
   padding: 20px;
-
 }
-
-.active {
-  border-bottom: rgb(128, 0, 0, 0.6);
-  ;
-}
-
 
 #smaller-steps {
   font-size: smaller;
   color: #ED8768;
-
 }
 
 #steps:hover {
@@ -68,102 +55,47 @@ body {
 }
 
 
-#menu-left:hover {
-  background-color: #F59F78;
-}
-
-#menu-right:hover {
-  background-color: #F59F78;
-}
-
-
-
-
-#menu-left,
-#menu-right {
-  font-size: 200%;
-
-
-
-}
-
-#menu-right {
-  float: right;
-  width: 50%;
-  height: 50px;
-
-  margin-right: none;
+#navigation-links-box {
   background-color: rgb(237, 135, 104, 0.7);
-
-
-}
-
-#menu-left {
-  float: left;
-  width: 50%;
-  height: 50px;
-  background-color: rgb(237, 135, 104, 0.7);
-}
-
-#menu-left li {
-  border: 10px;
-  float: left;
-  list-style-type: none;
-  margin-left: 50px;
-}
-
-
-#menu-right li {
-  border-right: 10px;
-  float: right;
-  list-style-type: none;
-  margin-right: 50px;
-
+  height: 45px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: stretch;
 
 }
 
-
-#menu-left a,
-#menu-right a {
+.menu a {
   text-decoration: none;
   color: inherit;
   font-family: 'Lobster Two', cursive;
   color: rgb(73, 13, 13);
-  padding: 30px;
+  padding: 70px;
+  font-size: 30px;
+}
 
+.menu li {
+  display: inline;
 }
 
 
-
-
-
-#menu-left .light-font {
-  color: rgb(128, 0, 0, 0.6);
+#link2 {
+  margin-right: 70px;
 }
 
-#menu-right .light-font {
-  color: rgb(128, 0, 0, 0.6);
+#link3 {
+  margin-left: 70px;
 }
 
-
-#menu-left a:hover,
-#menu-right a:hover{
-  color: rgb(128, 0, 0, 0.6);
-  font-size: larger;
-}
-
-#menu-left .light-font:hover,
-#menu-right .light-font:hover{
-  color: rgb(73, 13, 13);
+.menu a:hover {
+  color: #B3503E;
 }
 
 /* welcome section*/
 #welcome-background {
   width: 100%;
-  height: 800px;
+  height: 650px;
   background-color: rgb(183, 65, 14, 0.8);
-
-
 
 }
 
@@ -299,33 +231,35 @@ body {
 }
 
 /*Step-counts-introduction section*/
-#hero-background {
-  width: 100%;
-  height: 1300px;
-  background-color: rgb(245, 238, 238);
 
-}
 
 #step-counts-heading {
   width: 100%;
-  height: 430px;
+  height: 400px;
+  margin-top: 50px;
+  ;
   background-color: white;
-  position: absolute;
 
-  top: 810px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 
 }
 
 .step-counts {
+
   font-family: sail;
   color: rgb(73, 13, 13);
-  background-color: white;
+  background-color: transparent;
   font-size: 120px;
-  text-align: center;
-  padding: 25px;
+
   width: 100%;
-  height: 30px;
-   bottom: 20px;
+  text-align: center;
+  margin: -2.5%;
+
+
+
 
 }
 
@@ -334,22 +268,29 @@ body {
   font-size: 20px;
   color: rgb(138, 121, 93);
   font-family: Open Sans;
+
+  margin: 20px 20px 0 20px;
   text-align: center;
-  position: relative;
-  left: 16%;
-  top: 75px;
-  padding: 8px;
+
+
+
 
 }
 
 /*hero section*/
+#hero-background {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(245, 238, 238);
+}
+
 
 #hero-box-left {
   width: 400px;
   height: 400px;
-  position: absolute;
-  left: 0;
-  top: 1240px;
+  position: relative;
+  left: 0px;
+
   animation-name: walking-from-left;
   animation-duration: 15s;
   animation-delay: 10s;
@@ -359,55 +300,12 @@ body {
 #hero-box-right {
   width: 400px;
   height: 400px;
-  position: absolute;
-  right: 0;
-  top: 1630px;
   animation-name: walking-from-right;
   animation-duration: 15s;
   animation-delay: 10s;
   animation-fill-mode: forwards;
-}
-
-
-
-
-h4 {
-  font-size: 25px;
-  font-family: lobster two;
-  color: rgb(73, 13, 13);
-}
-
-
-p {
-  color: rgb(78, 63, 36);
-  font-weight: 5px bold;
-  font-size: 20px;
-  font-family: Raleway
-}
-
-.step-counts-left-pbox {
-  width: 73%;
-  height: 380px;
-  padding: 10px 0 0 20px;
-  background-color: rgb(245, 238, 238, 0.6);
-  position: absolute;
-  top: 1240px;
-
-}
-
-.step-counts-right-pbox {
-  width: 73%;
-  height: 568px;
-  background-color: rgb(245, 238, 238, 0.6);
-  position: absolute;
-  right: 0;
-  top: 1622px;
-}
-
-.step-counts-p {
-  color: rgb(167, 85, 2);
-  font-family: Open Sans;
-  font-weight: bold;
+  position: relative;
+  left: 900px;
 }
 
 #walking-from-right {
@@ -430,12 +328,44 @@ p {
 
 @keyframes walking-from-right {
   0% {
-    right: 20px;
+    left: 900px;
   }
 
   100% {
-    right: 940px;
+    left: 0px;
   }
+}
+
+* h4 {
+  font-size: 25px;
+  font-family: lobster two;
+  color: rgb(73, 13, 13);
+  text-align: center;
+}
+
+
+p {
+  color: rgb(78, 63, 36);
+  font-weight: 5px bold;
+  font-size: 20px;
+  font-family: Raleway;
+  text-align: center;
+}
+
+.step-counts-pbox {
+  width: 100%;
+  padding: 30px 20px 20px 20px;
+  background-color: rgb(245, 238, 238, 0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.step-counts-p {
+  color: rgb(167, 85, 2);
+  font-family: Open Sans;
+  font-weight: bold;
 }
 
 /*footer*/
@@ -473,8 +403,7 @@ p {
 }
 
 .social-networks i {
-  color: rgb(128, 0, 0, 0.6);
-  ;
+  color: rgb(73, 13, 13);
   font-size: 30px;
   line-height: 40px;
   margin-right: 4%;
@@ -483,18 +412,9 @@ p {
 
 /*add decoration to footer*/
 .social-networks i:hover {
-  color: rgb(73, 13, 13);
-  font-size: 40px;
+  color: #B3503E;
 }
 
-.social-networks .dark {
-  color: rgb(73, 13, 13);
-}
-
-.social-networks .dark:hover {
-  color: rgb(128, 0, 0, 0.6);
-
-}
 /*end of index.html*/
 
 /*just few steps heading*/
@@ -513,17 +433,17 @@ hr {
 }
 
 #slogan {
-  
+
   font-size: 30px;
   color: rgb(73, 13, 13);
   font-family: Raleway;
   font-style: italic;
-  
+
   display: inline;
-  
-  margin:200px 0 0 40%;
+
+  margin: 200px 0 0 40%;
   text-align: center;
-  
+
 
 
 
@@ -534,22 +454,24 @@ hr {
 
 .dots-like {
   display: inline;
-  
-  margin:0 auto;
+
+  margin: 0 auto;
   text-align: center;
-  
-  
+
+
   animation-name: dots-like;
-  animation-iteration-count:  infinite;
+  animation-iteration-count: infinite;
   animation-duration: 2s;
-  
+
 }
-#dots-like2{
-  
+
+#dots-like2 {
+
   animation-delay: 0.5s;
 }
-#dots-like3{
-  
+
+#dots-like3 {
+
   animation-delay: 1s;
 }
 
@@ -568,55 +490,61 @@ hr {
   background-color: rgb(237, 135, 104, 0.7);
   height: 3270px;
 }
-#instructions-box{
-  height:3270px;
+
+#instructions-box {
+  height: 3270px;
   overflow: hidden;
   width: 70%;
   text-align: center;
   clear: both;
   margin: 0 auto;
   background-color: white;
-  
-  border-left:3px solid rgb(73, 13, 13);
-  border-right:3px solid rgb(73, 13, 13);
-  margin-top:50px;
+
+  border-left: 3px solid rgb(73, 13, 13);
+  border-right: 3px solid rgb(73, 13, 13);
+  margin-top: 50px;
   text-align: center;
-  
+
 
 }
-#instructions-box li{
-  
-  color:rgb(73, 13, 13);
+
+#instructions-box li {
+
+  color: rgb(73, 13, 13);
   font-size: 30px;
   text-align: center;
-  clear:both;
-  margin:0 auto;
-  width:33%;
-  border-bottom: 2px solid #B3503E ;
+  clear: both;
+  margin: 0 auto;
+  width: 33%;
+  border-bottom: 2px solid #B3503E;
   border-bottom-width: 3px;
   list-style-type: none;
-  
-}
-#instructions-box ul p{
-  color:rgb(73, 13, 13);
+
 }
 
-.round-pic{
-  width:300px;
-  height:300px;
+#instructions-box ul p {
+  color: rgb(73, 13, 13);
+}
+
+.round-pic {
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
-  border:9px double rgb(73, 13, 13);;
-  position:relative;
-  right:800px;
+  border: 9px double rgb(73, 13, 13);
+  ;
+  position: relative;
+  right: 800px;
   animation-name: rotate-pic;
   animation-fill-mode: forwards;
   animation-duration: 5s;
 }
+
 #sc1 {
   animation-name: rotate-pic;
   animation-fill-mode: forwards;
   animation-duration: 5s;
-  animation-delay: 3s;}
+  animation-delay: 3s;
+}
 
 #sc2 {
   animation-name: rotate-pic;
@@ -624,14 +552,15 @@ hr {
   animation-duration: 5s;
   animation-delay: 6s;
 }
-  .sc3 {
-    animation-name: rotate-pic;
-    animation-fill-mode: forwards;
-    animation-duration: 5s;
-    animation-delay: 9s;
-    
-  
-  }
+
+.sc3 {
+  animation-name: rotate-pic;
+  animation-fill-mode: forwards;
+  animation-duration: 5s;
+  animation-delay: 9s;
+
+
+}
 
 #sc4 {
   animation-name: rotate-pic;
@@ -640,6 +569,7 @@ hr {
   animation-delay: 12s;
 
 }
+
 #sc5 {
   animation-name: rotate-pic;
   animation-fill-mode: forwards;
@@ -647,6 +577,7 @@ hr {
   animation-delay: 15s;
 
 }
+
 #sc6 {
   animation-name: rotate-pic;
   animation-fill-mode: forwards;
@@ -659,312 +590,361 @@ hr {
 
 
 
-.color-instructions{
+.color-instructions {
 
-  animation-name:color-instructions;
+  animation-name: color-instructions;
   animation-direction: alternate-reverse;
   animation-iteration-count: infinite;
   animation-duration: 1.2s;
 
 }
-#end-quote{
+
+#end-quote {
   border: 4px solid #B3503E;
-  padding:50px;
+  padding: 50px;
   border-radius: 30%;
 }
-  #heart-beat {
-  
+
+#heart-beat {
+
   animation-name: heart-beat;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-  
+
   animation-iteration-count: infinite;
 }
+
 /*animation instructions */
 
-  
 
 
-  
+
+
 
 @keyframes color-instructions {
-  0% {color:#ED8768}
-  
-  
-  50%{ color:#772c2c}
-  
-  
-  100% {color:#ED8768}
+  0% {
+    color: #ED8768
+  }
+
+
+  50% {
+    color: #772c2c
+  }
+
+
+  100% {
+    color: #ED8768
+  }
 
 }
+
 @keyframes rotate-pic {
-  0% {transform: rotate(0deg); right:100%;}
-  100% {transform: rotate(360deg); right:0%;}
-  
+  0% {
+    transform: rotate(0deg);
+    right: 100%;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    right: 0%;
+  }
+
 }
+
 @keyframes heart-beat {
-  0%{font-size:30px; }
-  100%{font-size: 35px;}
+  0% {
+    font-size: 30px;
+  }
+
+  100% {
+    font-size: 35px;
+  }
 }
+
 /*why it counts.html*/
 #why-it-counts-title {
   font-size: 40px;
   position: absolute;
-  top:200px;
-  right:750px;
+  top: 200px;
+  right: 750px;
   display: inline;
 }
+
 #wic-slogan {
   font-size: 50px;
-  width:40%;
+  width: 40%;
   text-align: center;
-  clear:both;
-  margin:0 auto;
-  padding-top:70px;
+  clear: both;
+  margin: 0 auto;
+  padding-top: 70px;
   border-bottom: #772c2c 4px double;
   border-bottom-width: 30%
-  
+}
+
+#hr-why-it-counts {
+  height: 62px;
+}
+
+#icon-directive-box-left {
+  height: 300px;
+  background-color: white;
+  width: 15%;
+  float: left;
+  border: #772c2c 6px double;
+  border-top: none;
+  border-left: none;
+
+
+  ;
+}
+
+#icon-directive-box-right {
+  height: 300px;
+  background-color: white;
+  width: 15%;
+  float: right;
+  border: #772c2c 6px double;
+  border-top: none;
+  border-right: none;
 
 }
-#hr-why-it-counts {
-  height:62px;
-}
-#icon-directive-box-left{
-  height:300px;
-  background-color: white;
-  width: 15%;
-  float:left;
-  border: #772c2c 6px double;
-  border-top:none;
-  border-left: none;
-  
-  
-  ;}
-#icon-directive-box-right{
-  height:300px;
-  background-color: white;
-  width: 15%;
-  float:right;
-  border: #772c2c 6px double;
-  border-top:none;
-  border-right: none;
-  
-  }
-.icon-directive{
-  
+
+.icon-directive {
+
   font-size: 28px;
   color: rgb(138, 121, 93);
   font-family: lobster two;
   padding: 8px;
   text-align: center;
 }
-#wic-box { 
 
-  
-  height: 700px; 
-  width:100%; 
+#wic-box {
+
+
+  height: 700px;
+  width: 100%;
   background-color: #F59F78;
   border-left: 15%;
-  
 
 
-  } 
-  
-  #video-container{
-    height:800px;
-    width:800px;
-    
-    position: absolute;
-    left: 18%;
-    
-    
-  }
-  #video {
-    
-    position:relative;
-    bottom:90px;
-    
-    
-  }
-    
-  .reasons{
-   
-    height:40px;
-    width:23%;
-    color:#772c2c;
-    font-size: 30px;
-    
-    
-    
-    
-    
-  }
-  .text {
-    color: rgb(237, 135, 104, 1);
-    background-color: white;
-    font-size: 23px;
-  }
-    
-    
-  
 
-  .text,input { 
+}
 
-    visibility: hidden; 
+#video-container {
+  height: 800px;
+  width: 800px;
 
- 
- 
+  position: absolute;
+  left: 18%;
 
-  } 
 
-input:checked ~ .text { 
+}
+
+#video {
+
+  position: relative;
+  bottom: 90px;
+
+
+}
+
+.reasons {
+
+  height: 40px;
+  width: 23%;
+  color: #772c2c;
+  font-size: 30px;
+
+
+
+
+
+}
+
+.text {
+  color: rgb(237, 135, 104, 1);
+  background-color: white;
+  font-size: 23px;
+}
+
+
+
+
+.text,
+input {
+
+  visibility: hidden;
+
+
+
+
+}
+
+input:checked~.text {
   visibility: visible;
 
-  display:inline; 
+  display: inline;
 
-} 
+}
 
- 
 
- #reason1 {
-  
-  position:absolute;
-  
-  left:50%;
-  top:720px;
+
+#reason1 {
+
+  position: absolute;
+
+  left: 50%;
+  top: 720px;
   z-index: 4;
 
- }
- #reason10{
-  position:absolute;
-  
-  left:50%;
-  top:1130px;
+}
 
-
- }
- #reason2 {
-  position:absolute;
-  left:37%;
-  top:775px;
-  z-index: 3;
-  
- }
- #reason3{
-  position:absolute;
-  left:63%;
-  top:775px;
-  z-index: 3;
- }
- #reason4{
-  
+#reason10 {
   position: absolute;
-  left:28%;
-  top:839px;
+
+  left: 50%;
+  top: 1130px;
+
+
+}
+
+#reason2 {
+  position: absolute;
+  left: 37%;
+  top: 775px;
+  z-index: 3;
+
+}
+
+#reason3 {
+  position: absolute;
+  left: 63%;
+  top: 775px;
+  z-index: 3;
+}
+
+#reason4 {
+
+  position: absolute;
+  left: 28%;
+  top: 839px;
   ;
- }
- #reason5{
+}
+
+#reason5 {
   position: absolute;
-  left:71%;
-  top:839px;
+  left: 71%;
+  top: 839px;
   z-index: 2;
- }
- #reason6{
+}
+
+#reason6 {
   position: absolute;
-  left:28%;
-  top:1015px;
+  left: 28%;
+  top: 1015px;
   z-index: 3;
 
- }
- #reason7{
-  position:absolute;
-  left:71%;
-  top:1015px;
- }
- #reason8{
-  position:absolute;
-  left:37%;
-  top:1100px;
+}
+
+#reason7 {
+  position: absolute;
+  left: 71%;
+  top: 1015px;
+}
+
+#reason8 {
+  position: absolute;
+  left: 37%;
+  top: 1100px;
   z-index: 2;
 
- }
- #reason9{
-  position:absolute;
-  left:64%;
-  top:1100px;
- }
+}
 
- /*sign-up.html*/
- #sign-up-title-box{
+#reason9 {
+  position: absolute;
+  left: 64%;
+  top: 1100px;
+}
+
+/*sign-up.html*/
+#sign-up-title-box {
   width: 100%;
   height: 130px;
- }
- #dowload-app-box{
-  width:100%;
-  height:300px;
- }
- #sign-up-background{
-  width:100%;
-  height:800px;
+}
+
+#dowload-app-box {
+  width: 100%;
+  height: 300px;
+}
+
+#sign-up-background {
+  width: 100%;
+  height: 800px;
   text-align: center;
   background-color: #F59F78;
-  
- }
 
- #sign-up-box{
+}
 
- width:40%;
-height:300px;
-border:4px double bisque;
-border-radius: 30%;
-background-color: rgba(242, 241, 241, 0.326);
-border-radius: 30px;
+#sign-up-box {
 
-position:absolute;
-top:550px;
-left:30%;
+  width: 40%;
+  height: 300px;
+  border: 4px double bisque;
+  border-radius: 30%;
+  background-color: rgba(242, 241, 241, 0.326);
+  border-radius: 30px;
+
+  position: absolute;
+  top: 550px;
+  left: 30%;
 
 
-;
- }
- #legend {
+  ;
+}
+
+#legend {
   font-size: 30px;
- }
+}
 
 
- .sign-up {
-  visibility: visible ;
-  display:block;
+.sign-up {
+  visibility: visible;
+  display: block;
   height: 20;
 
-  border:2px solid bisque;
+  border: 2px solid bisque;
   color: #772c2c;
   font-size: 20px;
-  
+
   border-radius: 10px;
-  padding:2%;
-  clear: both;
-  margin:0 auto;
-}
- :placeholder-shown {
-  
-  background-color: transparent;
-  color:#772c2c;
   padding: 2%;
- }
- ::placeholder {
+  clear: both;
+  margin: 0 auto;
+}
+
+:placeholder-shown {
+
+  background-color: transparent;
+  color: #772c2c;
+  padding: 2%;
+}
+
+::placeholder {
   color: bisque;
- }
- input:focus::placeholder {
+}
+
+input:focus::placeholder {
   background-color: bisque;
   color: #772c2c;
- }
- #button{
+}
+
+#button {
   background-color: transparent;
-  color:bisque;
- }
-  
-.sign-up:hover, #button:hover {
+  color: bisque;
+}
+
+.sign-up:hover,
+#button:hover {
   background-color: #772c2c;
   color: bisque;
 }
