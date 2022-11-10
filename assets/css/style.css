@@ -389,7 +389,7 @@ p {
 #footer-down {
   background-color: rgb(73, 13, 13);
   width: 100%;
-  height: 50px;
+  height: 60px;
 
 }
 
@@ -423,26 +423,42 @@ hr {
 }
 
 #app-intro {
-  margin: 70px;
+  
+  margin-top: 70px;
+  width: 100%;
+  
+
+  
+  
+  
+  
 }
+ 
 
-#app-intro p {
-  font-style: italic;
-  font-weight: 5px bold;
+.intro {
+  
+  width:90%;
+  margin-left: 5%;
+  display:flex;
+  justify-content: center;
+  
+} 
+  
 
-}
 
-#slogan {
 
-  font-size: 30px;
+
+ #slogan {
+  width:30%;
+  clear:both;
+  margin:0 auto;
+   font-size: 30px;
   color: rgb(73, 13, 13);
   font-family: Raleway;
-  font-style: italic;
-
-  display: inline;
-
+  font-style: italic; 
+   display: inline; 
   margin: 200px 0 0 40%;
-  text-align: center;
+  
 
 
 
@@ -664,10 +680,13 @@ hr {
 /*why it counts.html*/
 #why-it-counts-title {
   font-size: 40px;
-  position: absolute;
-  top: 200px;
-  right: 750px;
+  
   display: inline;
+}
+.wic {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #wic-slogan {
@@ -679,6 +698,7 @@ hr {
   padding-top: 70px;
   border-bottom: #772c2c 4px double;
   border-bottom-width: 30%
+
 }
 
 #hr-why-it-counts {
@@ -721,7 +741,7 @@ hr {
 #wic-box {
 
 
-  height: 700px;
+  height: 450px;
   width: 100%;
   background-color: #F59F78;
   border-left: 15%;
@@ -731,40 +751,39 @@ hr {
 }
 
 #video-container {
-  height: 800px;
-  width: 800px;
-
-  position: absolute;
-  left: 18%;
+  height: 500px;
+  width: 865px;
+  background: url('../image/ezgif.com-gif-maker (1).gif') no-repeat center center;
+  
+  display: flex;
+  justify-content: center;
 
 
 }
-
-#video {
-
-  position: relative;
-  bottom: 90px;
-
-
+.rbox {
+  width:123px;
+  border:2px double rgb(73, 13, 13);
+  background-color: bisque;
 }
 
 .reasons {
 
-  height: 40px;
-  width: 23%;
   color: #772c2c;
   font-size: 30px;
-
-
-
-
-
 }
 
+#first5, #second5{
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  
+}
 .text {
   color: rgb(237, 135, 104, 1);
   background-color: white;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 
@@ -783,87 +802,8 @@ input {
 input:checked~.text {
   visibility: visible;
 
-  display: inline;
+  display:inline;
 
-}
-
-
-
-#reason1 {
-
-  position: absolute;
-
-  left: 50%;
-  top: 720px;
-  z-index: 4;
-
-}
-
-#reason10 {
-  position: absolute;
-
-  left: 50%;
-  top: 1130px;
-
-
-}
-
-#reason2 {
-  position: absolute;
-  left: 37%;
-  top: 775px;
-  z-index: 3;
-
-}
-
-#reason3 {
-  position: absolute;
-  left: 63%;
-  top: 775px;
-  z-index: 3;
-}
-
-#reason4 {
-
-  position: absolute;
-  left: 28%;
-  top: 839px;
-  ;
-}
-
-#reason5 {
-  position: absolute;
-  left: 71%;
-  top: 839px;
-  z-index: 2;
-}
-
-#reason6 {
-  position: absolute;
-  left: 28%;
-  top: 1015px;
-  z-index: 3;
-
-}
-
-#reason7 {
-  position: absolute;
-  left: 71%;
-  top: 1015px;
-}
-
-#reason8 {
-  position: absolute;
-  left: 37%;
-  top: 1100px;
-  z-index: 2;
-
-}
-
-#reason9 {
-  position: absolute;
-  left: 64%;
-  top: 1100px;
 }
 
 /*sign-up.html*/
