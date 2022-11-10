@@ -18,23 +18,32 @@ body {
 #top-page {
   background-color: rgb(73, 13, 13);
   width: 100%;
-  height: 90px;
+  height:130px;
+
+  
 }
 
 #logo {
   color: #B3503E;
-  text-align: center;
-  padding: 30px;
-  background-color: rgb(73, 13, 13);
+  display: flex;
+  justify-content: center;
+  
+  padding: px;
+  
   width: 100%;
-  height: 30px;
+  
 }
+a {
+  text-decoration: none;
+}
+
+  
+  
+
 
 #steps {
   font-size: 50px;
-  position: absolute;
-  top: 38px;
-  left: 43%;
+  
   border: solid;
   border-width: 5px;
   border-radius: 50%;
@@ -71,6 +80,7 @@ body {
   font-family: 'Lobster Two', cursive;
   color: rgb(73, 13, 13);
   padding: 70px;
+  padding-top:;
   font-size: 30px;
 }
 
@@ -96,6 +106,8 @@ body {
   width: 100%;
   height: 650px;
   background-color: rgb(183, 65, 14, 0.8);
+  display: flex;
+  justify-content: start;
 
 }
 
@@ -103,20 +115,15 @@ body {
   width: 1200px;
   height: 600px;
   margin: 0 auto;
+  background-image: url("../image/pexels-whicdhemein-one-4576817.jpg");
+  
 
 
 }
 
-#quotes-about-left-top {
 
-  width: 100%;
-  height: 150px;
-  overflow: hidden;
-  position: absolute;
-  top: 20%;
-  left: 5px;
-
-}
+  
+  
 
 #quotes-about-right {
 
@@ -127,14 +134,12 @@ body {
 
   right: 10px;
 
-  animation-name: move-about;
-  animation-duration: 7s;
-  animation-fill-mode: forwards;
+  
 }
 
 #quote-about-left-bottom {
   width: 80%;
-  height: 200px;
+  height: 160px;
 
   position: absolute;
   top: 80%;
@@ -144,91 +149,38 @@ body {
 
 .left-quote {
   font-family: 'Lobster Two', cursive;
-  color: whitesmoke;
-  animation-name: quote-zoom-left;
-  animation-duration: 7s;
-  animation-fill-mode: forwards;
+  color:whitesmoke;
   position: absolute;
+  
+  font-size: 45px;
+  top:200px;
 
 }
 
 #left-bottom {
-  animation-name: quote-zoom-left-bottom;
-  animation-duration: 7s;
-  animation-fill-mode: forwards;
-  font-size: 28px;
+  position: absolute;
+  top:500px;
+  
+  
+  font-size: 35px;
   padding: 5%;
+  
 }
 
 #right-quote {
   font-family: 'Lobster Two', cursive;
   color: whitesmoke;
-  animation-name: quote-zoom-right;
-  animation-duration: 7s;
-  animation-fill-mode: forwards;
+  
+  font-size: 45px;
   position: absolute;
+  top:400px;
+  right:0px;
+  
+  
 
 }
 
-/*creates animation for quotes on welcome section*/
-@keyframes quote-zoom-left {
-  0% {
-    font-size: 30px;
-    left: 10px;
-    top: 10px;
-    color: black
-  }
 
-  100% {
-    font-size: 40px;
-    left: 50px;
-    top: 50px;
-    color: whitesmoke
-  }
-}
-
-@keyframes quote-zoom-left-bottom {
-  0% {
-    left: 10px;
-    top: 10px;
-    color: black
-  }
-
-  100% {
-    left: 60px;
-    top: 40px;
-    color: whitesmoke
-  }
-
-}
-
-@keyframes quote-zoom-right {
-  0% {
-    font-size: 40px;
-    right: 0px;
-    color: black;
-  }
-
-  100% {
-    font-size: 45px;
-    right: 50px;
-    color: whitesmoke
-  }
-
-}
-
-@keyframes move-about {
-  0% {
-    right: 10px;
-    top: 50%;
-  }
-
-  100% {
-    right: 30px;
-    top: 60%;
-  }
-
-}
 
 /*Step-counts-introduction section*/
 
@@ -305,7 +257,7 @@ body {
   animation-delay: 10s;
   animation-fill-mode: forwards;
   position: relative;
-  left: 900px;
+  left: 70%;
 }
 
 #walking-from-right {
@@ -317,22 +269,22 @@ body {
 /*animation for hero section*/
 @keyframes walking-from-left {
   0% {
-    left: 0px;
+    left: 0%;
   }
 
   100% {
-    left: 950px;
+    left: 60%;
   }
 
 }
 
 @keyframes walking-from-right {
   0% {
-    left: 900px;
+    left: 90%;
   }
 
   100% {
-    left: 0px;
+    left: 0%;
   }
 }
 
@@ -714,8 +666,6 @@ hr {
   border-top: none;
   border-left: none;
 
-
-  ;
 }
 
 #icon-directive-box-right {
@@ -750,7 +700,7 @@ hr {
 
 }
 
-#video-container {
+#gif-container {
   height: 500px;
   width: 865px;
   background: url('../image/ezgif.com-gif-maker (1).gif') no-repeat center center;
@@ -760,25 +710,24 @@ hr {
 
 
 }
-.rbox {
+.reason-box {
   width:123px;
   border:2px double rgb(73, 13, 13);
   background-color: bisque;
 }
 
-.reasons {
-
-  color: #772c2c;
-  font-size: 30px;
-}
-
-#first5, #second5{
+#reasons-container{
   width: 100%;
   
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
   
+}
+.reasons {
+
+  color: #772c2c;
+  font-size: 30px;
 }
 .text {
   color: rgb(237, 135, 104, 1);
@@ -813,8 +762,10 @@ input:checked~.text {
 }
 
 #dowload-app-box {
-  width: 100%;
+  width: 70%;
   height: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 #sign-up-background {
@@ -873,18 +824,166 @@ input:checked~.text {
   color: bisque;
 }
 
-input:focus::placeholder {
-  background-color: bisque;
-  color: #772c2c;
-}
+
 
 #button {
   background-color: transparent;
   color: bisque;
 }
+/* 
+/*--media query*/
 
-.sign-up:hover,
-#button:hover {
-  background-color: #772c2c;
-  color: bisque;
+ @media screen and (max-width:1100px) {
+  #top-page {
+    width:65%;
+    margin: 0 auto;
+    display: flex;
+    text-align: start;
+  }
+  #navigation-links-box {
+    width: 65%;
+    height:100px; 
+    display: flex;
+    justify-content: center;
+    clear: both;
+    margin:0 auto;
+    
+  } 
+  #menu-right li {
+    float:right;
+  }
+  #step-counts-heading {
+    width:75%;
+    height:700px;
+    clear:both;
+    margin: 0 auto;
+  }
+  #hero-background{
+    width:65%;
+    margin: 0 auto;
+    height:650px;
+  }
+  #walking-from-left {
+    width:300px;
+    height:300px;
+    animation-name: walking-from-right;
+    animation-duration: 
+    
+  }
+ #hero-box-right{
+  position: relative;
+  left:56%;
+  
+ }
+  #walking-from-right {
+    width:300px;
+    height:300px;
+  
+    animation-delay: 10s;
+    
+    
+    
+  
+  }
+  @keyframes walking-from-left {
+    0% {
+      left: 0%;
+    }
+  
+    100% {
+      left: 60%;
+    }
+  
+  }
+  
+  @keyframes walking-from-right {
+    0% {
+      left:55%;
+    }
+  
+    100% {
+      left:0%;
+    }
+  }
+  #hero-box-left, #hero-box-right {
+    height:300px;
+  }
+  .step-counts-pbox {
+    width: 61%;
+    height:600px;
+    margin: 0 auto;
+  }
+  #logo {
+    color: #B3503E;
+    display: inline;
+    padding-top:5%;
+    
+
+    
+    width: 65%;
+    height: 30px;
+    
+    
+  }
+  #steps {
+    border:none;
+    
+  }
+  #welcome-background{
+    width:65%;
+    height:700px;
+    margin:0 auto;
+  }
+  }
+  
+#quotes-about-right {
+
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+  position: absolute;
+
+  right: 10px;
+
+  
 }
+
+#quote-about-left-bottom {
+  width: 80%;
+  height: 160px;
+
+  position: absolute;
+  top: 80%;
+  right: 100x;
+
+}
+
+.left-quote {
+  
+  position: absolute;
+  
+  font-size: 35px;
+  top:300px;
+
+}
+
+#left-bottom {
+  position: absolute;
+  top:600px;
+  left:150px;
+  width:60%;
+  
+  
+  font-size: 25px;
+  
+}
+
+#right-quote {
+
+  font-size: 35px;
+  position: absolute;
+  top:500px;
+  right:200px;
+    
+  
+} */ */
