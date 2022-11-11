@@ -694,13 +694,13 @@ hr {
   text-align: center;
 }
 
-#wic-box {
 
 
-  height: 450px;
-  width: 100%;
-  background-color: #F59F78;
-  border-left: 15%;
+
+  #wic-box {
+    height: 500px;
+    width: 100%;
+    background-color: #F59F78;
 
 
 
@@ -708,27 +708,23 @@ hr {
 
 #gif-container {
   height: 500px;
-  width: 865px;
-  background: url('../image/ezgif.com-gif-maker (1).gif') no-repeat center center;
-  
-  display: flex;
-  justify-content: center;
+    
+    background: url('../image/ezgif.com-gif-maker (1).gif') no-repeat center center;
+    display: flex;
+    justify-content: center;
 
 
 }
 .reason-box {
-  width:123px;
+  
   border:2px double rgb(73, 13, 13);
   background-color: bisque;
 }
 
 #reasons-container{
   width: 100%;
-  
-  display: flex;
-  justify-content: center;
-  justify-content: space-evenly;
-  
+    display: flex;
+    justify-content: center;
 }
 .reasons {
 
@@ -1009,7 +1005,7 @@ input:checked~.text {
   height:550px;
 }
 }
-/*media screen for small devices  from 700px and below */
+/*media screen for  index.html for small devices  from 700px and below */
 @media screen  and  (max-width: 700px){
   #hero-box-left {
   width:100%;
@@ -1035,7 +1031,41 @@ input:checked~.text {
   height:790px;
 }
 }
+  /*media screen for size from 1200px and below for why-it-counts.html*/
+ @media  screen and (max-width:1000px) {
+  #wic-box {
+    height:500px;
+  }
+  /* #gif-container {
+    width: 550px;
+    padding-left: 30px;
+    background-size: 400px; */
+  }
+  #icon-directive-box-left, #icon-directive-box-right {
+    height:420px;
+  }
   
+ }
   
+  @media  and (max-width:900px) {
+    
+    #gif-container {
+      width: 650px;
+    
+      background-size: 600px;
+    
+  }
   
-  
+}
+@media screen and (max-width:800px) {
+  #wic-box {
+    height:600px;
+
+  }
+
+#icon-directive-box-right, #icon-directive-box-left{
+   width:18%;}
+   .icon-directive {
+    font-size: 20px;
+   }
+  }
