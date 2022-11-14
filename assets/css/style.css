@@ -18,32 +18,33 @@ body {
 #top-page {
   background-color: rgb(73, 13, 13);
   width: 100%;
-  height:130px;
+  height: 130px;
 
-  
+
 }
 
 #logo {
   color: #B3503E;
   display: flex;
   justify-content: center;
-  
-  padding-top:10px;
-  
-  
-  
+
+  padding-top: 10px;
+
+
+
 }
+
 a {
   text-decoration: none;
 }
 
-  
-  
+
+
 
 
 #steps {
   font-size: 50px;
-  
+
   border: solid;
   border-width: 5px;
   border-radius: 50%;
@@ -82,7 +83,7 @@ a {
   font-family: 'Lobster Two', cursive;
   color: rgb(73, 13, 13);
   padding: 70px;
-  padding-top:;
+  
   font-size: 30px;
 }
 
@@ -105,27 +106,26 @@ a {
 
 /* welcome section*/
 #welcome-background {
-  width: 100%;
+
   height: 650px;
   background-color: rgb(183, 65, 14, 0.8);
-  display: flex;
-  justify-content: start;
+
 
 }
 
 #image-container {
-  width: 1200px;
+  width: 98%;
   height: 600px;
   margin: 0 auto;
-  background-image: url("../image/pexels-whicdhemein-one-4576817.jpg");
-  
+  background: url("../image/pexels-whicdhemein-one-4576817.jpg")no-repeat center center;
+
 
 
 }
 
 
-  
-  
+
+
 
 #quotes-about-right {
 
@@ -136,7 +136,7 @@ a {
 
   right: 10px;
 
-  
+
 }
 
 #quote-about-left-bottom {
@@ -151,34 +151,34 @@ a {
 
 .left-quote {
   font-family: 'Lobster Two', cursive;
-  color:whitesmoke;
+  color: whitesmoke;
   position: absolute;
-  
+
   font-size: 45px;
-  top:200px;
+  top: 200px;
 
 }
 
 #left-bottom {
   position: absolute;
-  top:500px;
-  
-  
+  top: 500px;
+
+
   font-size: 35px;
   padding: 5%;
-  
+
 }
 
 #right-quote {
   font-family: 'Lobster Two', cursive;
   color: whitesmoke;
-  
+
   font-size: 45px;
   position: absolute;
-  top:400px;
-  right:0px;
-  
-  
+  top: 400px;
+  right: 0px;
+
+
 
 }
 
@@ -188,8 +188,8 @@ a {
 
 
 #step-counts-heading {
-  
-  height: 400px;
+
+  height: 500px;
   margin-top: 50px;
   ;
   background-color: white;
@@ -210,7 +210,7 @@ a {
 
   width: 100%;
   text-align: center;
-  margin: -2.5%;
+  margin: -1.5%;
 
 
 
@@ -218,12 +218,12 @@ a {
 }
 
 .step-counts-intro {
-  width: 70%;
-  font-size: 20px;
+  width: 60%;
+  font-size: 18px;
   color: rgb(138, 121, 93);
   font-family: Open Sans;
 
-  margin: 20px 20px 0 20px;
+  margin: 2% 5% 2% 5%;
   text-align: center;
 
 
@@ -259,7 +259,7 @@ a {
   animation-delay: 10s;
   animation-fill-mode: forwards;
   position: relative;
-  left: 70%;
+  left: 82%;
 }
 
 #walking-from-right {
@@ -275,14 +275,14 @@ a {
   }
 
   100% {
-    left: 60%;
+    left: 80%;
   }
 
 }
 
 @keyframes walking-from-right {
   0% {
-    left: 90%;
+    left: 100%;
   }
 
   100% {
@@ -291,7 +291,7 @@ a {
 }
 
 * h4 {
-  font-size: 25px;
+  font-size: 20px;
   font-family: lobster two;
   color: rgb(73, 13, 13);
   text-align: center;
@@ -301,29 +301,46 @@ a {
 p {
   color: rgb(78, 63, 36);
   font-weight: 5px bold;
-  font-size: 20px;
+
   font-family: Raleway;
-  text-align: center;
+  font-size: 17px;
+
 }
 
 .step-counts-pbox {
-  
-  padding: 50px 20px 20px 20px;
+
+  padding: 100px 30px 20px 30px;
   background-color: rgb(245, 238, 238, 0.6);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  height:320px;
+
+  border: 2px solid rgb(167, 85, 2);
+  height: 500px;
+
 }
-#pbox-2{
-  height:400px;
+
+.step-counts-pbox p {
+  font-size: 18px;
 }
+
+
+
+
 
 .step-counts-p {
   color: rgb(167, 85, 2);
   font-family: Open Sans;
   font-weight: bold;
+}
+
+.bho {
+  width: 45%;
+}
+
+#bho1 {
+  float: left;
+}
+
+#bho2 {
+  float: right;
 }
 
 /*footer*/
@@ -381,42 +398,42 @@ hr {
 }
 
 #app-intro {
-  
+
   margin-top: 70px;
   width: 100%;
-  
 
-  
-  
-  
-  
+
+
+
+
+
 }
- 
+
 
 .intro {
-  
-  width:90%;
+
+  width: 90%;
   margin-left: 5%;
-  display:flex;
+  display: flex;
   justify-content: center;
-  
-} 
-  
+
+}
 
 
 
 
- #slogan {
-  width:30%;
-  clear:both;
-  margin:0 auto;
-   font-size: 30px;
+
+#slogan {
+  width: 30%;
+  clear: both;
+  margin: 0 auto;
+  font-size: 30px;
   color: rgb(73, 13, 13);
   font-family: Raleway;
-  font-style: italic; 
-   display: inline; 
+  font-style: italic;
+  display: inline;
   margin: 200px 0 0 40%;
-  
+
 
 
 
@@ -462,11 +479,12 @@ hr {
 /*step counts instructions*/
 #background-instructions {
   background-color: rgb(237, 135, 104, 0.7);
-  height: 3270px;
+
 }
 
+
 #instructions-box {
-  height: 3270px;
+
   overflow: hidden;
   width: 70%;
   text-align: center;
@@ -638,9 +656,10 @@ hr {
 /*why it counts.html*/
 #why-it-counts-title {
   font-size: 40px;
-  
+
   display: inline;
 }
+
 .wic {
   width: 100%;
   display: flex;
@@ -656,7 +675,6 @@ hr {
   padding-top: 70px;
   border-bottom: #772c2c 4px double;
   border-bottom-width: 30%
-
 }
 
 #hr-why-it-counts {
@@ -697,10 +715,10 @@ hr {
 
 
 
-  #wic-box {
-    height: 500px;
-    width: 100%;
-    background-color: #F59F78;
+#wic-box {
+  height: 500px;
+  width: 100%;
+  background-color: #F59F78;
 
 
 
@@ -708,29 +726,33 @@ hr {
 
 #gif-container {
   height: 500px;
-    
-    background: url('../image/ezgif.com-gif-maker (1).gif') no-repeat center center;
-    display: flex;
-    justify-content: center;
+
+  background: url('../image/ezgif.com-gif-maker (1).gif') no-repeat center center;
+  display: flex;
+  justify-content: center;
 
 
 }
+
 .reason-box {
-  
-  border:2px double rgb(73, 13, 13);
+
+  border: 2px double rgb(73, 13, 13);
   background-color: bisque;
 }
 
-#reasons-container{
+#reasons-container {
   width: 100%;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  background-color: #F59F78;
 }
+
 .reasons {
 
   color: #772c2c;
   font-size: 30px;
 }
+
 .text {
   color: rgb(237, 135, 104, 1);
   background-color: white;
@@ -753,7 +775,7 @@ input {
 input:checked~.text {
   visibility: visible;
 
-  display:inline;
+  display: inline;
 
 }
 
@@ -771,7 +793,9 @@ input:checked~.text {
 }
 
 #sign-up-background {
-  width: 100%;
+  background: url("../image/pexels-james-wheeler-3988366.jpg") no-repeat center;
+  background-size: cover;
+  background-position: center;
   height: 800px;
   text-align: center;
   background-color: #F59F78;
@@ -780,16 +804,16 @@ input:checked~.text {
 
 #sign-up-box {
 
-  width: 40%;
-  height: 300px;
-  border: 4px double bisque;
+  width: 60%;
+  height: 310px;
+
   border-radius: 30%;
   background-color: rgba(242, 241, 241, 0.326);
   border-radius: 30px;
 
   position: absolute;
-  top: 550px;
-  left: 30%;
+
+  left: 18%;
 
 
   ;
@@ -832,240 +856,395 @@ input:checked~.text {
   background-color: transparent;
   color: bisque;
 }
+
 /* 
 /*--media query*/
 
- @media screen and (max-width:1260px) {
+@media screen and (max-width:1260px) {
 
   #navigation-links-box {
-   
+
     display: flex;
     justify-content: center;
     clear: both;
-    margin:0 auto;
-    
-  } 
+    margin: 0 auto;
+
+  }
+
   .menu a {
-    padding:9px;
+    padding: 9px;
   }
+
   #menu-right li {
-    float:right;
+    float: right;
   }
+
   #step-counts-heading {
-    
-    height:530px;
-    clear:both;
+
+    height: 530px;
+    clear: both;
     margin: 0 auto;
   }
-    
-  #welcome-background{
-    
-    height:700px;
-    margin:0 auto;
-  }
-  
-  
-#quotes-about-right {
 
-  width: 100%;
-  height: 150px;
-  overflow: hidden;
-  position: absolute;
+  #welcome-background {
 
-
-
-  
-}
-
-#quote-about-left-bottom {
-  width: 80%;
-  height: 160px;
-
-  position: absolute;
-  top: 80%;
-  right: 100x;
-
-}
-
-.left-quote {
-  
-  position: absolute;
-  
-  font-size: 35px;
-  top:300px;
-
-}
-
-#left-bottom {
-  position: absolute;
-  top:600px;
-  width:60%;
-   font-size: 25px;
-  
-}
-
-#right-quote {
-
-  font-size: 35px;
-  position: absolute;
-  top:500px;
-  
-    
-  
-} 
-  #hero-background{
-  
+    height: 700px;
     margin: 0 auto;
-    height:600px;
   }
-  #hero-box-right{
+
+  #image-container {
+    width: 90%;
+  }
+
+  #quotes-about-right {
+
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+
+
+
+
+  }
+
+  #quote-about-left-bottom {
+    width: 80%;
+    height: 160px;
+
+    position: absolute;
+    top: 80%;
+    right: 100x;
+
+  }
+
+  .left-quote {
+
+    position: absolute;
+
+    font-size: 35px;
+    top: 300px;
+
+  }
+
+  #left-bottom {
+    position: absolute;
+    top: 600px;
+
+    font-size: 25px;
+
+  }
+
+  #right-quote {
+
+    font-size: 35px;
+    position: absolute;
+    top: 500px;
+
+
+
+  }
+
+  #hero-background {
+
+    margin: 0 auto;
+    height: 600px;
+  }
+
+  #hero-box-right {
     position: relative;
-    left:73%;
-  }  
-  #hero-box-left, #hero-box-right {
-    height:300px;
-  }
-  #walking-from-left {
-    width:300px;
-    height:300px;
-    animation-name: walking-from-right;
-    animation-duration: 
-    
+    left: 73%;
   }
 
- 
-  #walking-from-right {
-    width:300px;
-    height:300px;
-  
-    animation-delay: 10s;
-    
-    
-    
-  
+  #hero-box-left,
+  #hero-box-right {
+    height: 300px;
   }
+
+  #walking-from-left {
+    width: 300px;
+    height: 300px;
+    animation-name: walking-from-right;
+    
+
+  }
+
+
+  #walking-from-right {
+    width: 300px;
+    height: 300px;
+
+    animation-delay: 10s;
+
+
+
+
+  }
+
   @keyframes walking-from-left {
     0% {
       left: 0%;
     }
-  
+
     100% {
       left: 73%;
     }
-  
+
   }
-  
+
   @keyframes walking-from-right {
     0% {
-      left:73%;
+      left: 73%;
     }
-  
+
     100% {
-      left:0%;
+      left: 0%;
     }
   }
-  
+
   .step-counts-pbox {
-   
-    height:450px;
-    margin: 0 auto;
-    
+    height: 900px;
+    padding-top: 150px;
+
+
+
+
   }
 }
 
 /*for medium screen sizes from 860px and below */
-@media screen  and  (max-width: 800px)
-{
-  
+@media screen and (max-width: 800px) {
+
   #logo {
     justify-content: unset;
   }
-  #navigation-links-box{
-  height:160px;
-  display: list-item;
-}
-.menu li {
-  display:block;
 
+  #navigation-links-box {
+    height: 160px;
+    display: list-item;
+  }
+
+  .menu li {
+    display: block;
+
+  }
+
+  .left-quote {
+    font-size: 30px;
+  }
+
+  #right-quote {
+    font-size: 30px;
+  }
+
+  .step-counts-pbox {
+    height: 1200px;
+  }
 }
-#image-container{
-  width: 600px;
-}
-#step-counts-heading {
-  
-  height:600px;
-}
-/* #hero-box-left, #hero-box-right {
-  display:flex;
-  justify-content: center;
-  animation:unset; */
 
 
-#pbox-2 {
-  height:550px;
-}
-}
+
+
+
+
+
 /*media screen for  index.html for small devices  from 700px and below */
-@media screen  and  (max-width: 700px){
+@media screen and (max-width: 700px) {
+  #step-counts-heading {
+    height: 580px
+  }
+
+  .step-counts {
+    font-size: 80px;
+  }
+
+  .step-counts-intro {
+    font-size: 18px;
+    text-align: unset;
+    width: unset;
+  }
+
+
+
   #hero-box-left {
-  width:100%;
-  display:flex;
-  justify-content: center;
-  animation:unset; 
-  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: unset;
+
+
+  }
+
+  #hero-box-right {
+    position: unset;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    animation: unset;
+
+
+  }
 
 }
-#hero-box-right {
-  position:unset;
-  width:100%;
-  display:flex;
-  justify-content: center;
-  animation:unset;
 
-  
+
+
+
+.step-counts-pbox p {
+  font-size: 18px;
 }
-.step-counts-pbox {
-  height:600px;
+
+
+
+@media screen and (max-width: 570px) {
+  .step-counts-pbox {
+    height: 1600px;
+  }
+
+  .bho {
+    width: 100%;
+  }
 }
-#pbox-2 {
-  height:790px;
+
+@media screen and (max-width: 470px) {
+  .step-counts-pbox {
+    height: 1600px;
+    display: inline-table;
+  }
 }
+
+/*media screen for  just-few-steps.html for small devices  from 1200px and below */
+@media screen and (max-width: 1200px) {
+  #instructions-box li {
+    font-size: 25px;
+  }
 }
-  /*media screen for size from 1200px and below for why-it-counts.html*/
- @media  screen and (max-width:1000px) {
+
+/*media screen for  just-few-steps.html for small devices  from 900px and below */
+@media screen and (max-width: 1200px) {
+  #instructions-box li {
+    width: 45%;
+  }
+}
+
+/*media screen for  just-few-steps.html for small devices  from 600px and below */
+@media screen and (max-width: 600px) {
+  .round-pic {
+    visibility: hidden;
+    position: absolute;
+  }
+
+  #instructions-box li {
+    font-size: 25px;
+    width: 55%;
+  }
+}
+
+/*media screen for  just-few-steps.html for small devices  from 500px and below */
+@media screen and (max-width: 500px) {
+  #slogan {
+    float: left;
+    margin: 0;
+    width: unset;
+    padding: 5%;
+  }
+
+  #dots-like1,
+  #dots-like2,
+  #dots-like3 {
+    visibility: hidden;
+  }
+
+  #instructions-box li {
+    width: 60%;
+    font-size: 20px;
+  }
+
+  #instructions-box {
+    text-align: start;
+
+
+  }
+
+  #instructions-box li {
+    margin: unset;
+    padding-bottom: 2%;
+  }
+
+  #end-quote {
+    border: unset;
+    border-radius: unset;
+    font-size: 15px;
+    border-bottom: unset;
+  }
+
+  #heart-beat {
+    animation: unset;
+  }
+}
+
+
+/*media screen for size from 1200px and below for why-it-counts.html*/
+@media screen and (max-width:1000px) {
   #wic-box {
-    height:500px;
+    height: 500px;
   }
-  /* #gif-container {
-    width: 550px;
-    padding-left: 30px;
-    background-size: 400px; */
+
+  #icon-directive-box-left,
+  #icon-directive-box-right {
+    height: 420px;
   }
-  #icon-directive-box-left, #icon-directive-box-right {
-    height:420px;
-  }
-  
- }
-  
-  @media  and (max-width:900px) {
-    
-    #gif-container {
-      width: 650px;
-    
-      background-size: 600px;
-    
-  }
-  
+
 }
+
+
+
+
+
 @media screen and (max-width:800px) {
   #wic-box {
-    height:600px;
+    height: 600px;
 
   }
 
-#icon-directive-box-right, #icon-directive-box-left{
-   width:18%;}
-   .icon-directive {
+  #icon-directive-box-right,
+  #icon-directive-box-left {
+    width: 18%;
+  }
+
+  .icon-directive {
     font-size: 20px;
-   }
   }
+}
+
+/*media screen for size from 500px and below for why-it-counts.html*/
+@media screen and (max-width:600px) {
+
+  #icon-directive-box-right,
+  #icon-directive-box-left {
+    width: unset;
+    height: 130px;
+  }
+
+  #icon-directive-box-left {
+    border-top: #772c2c 6px double;
+  }
+
+  #gif-container {
+    width: 100%;
+  }
+}
+
+/*media screen for size from 600px and below for sign-up.html*/
+@media screen and (max-width:500px) {
+  #sign-up-box {
+    width: 80%;
+    left: 0%;
+    top: 1000px;
+  }
+
+  .sign-up {
+    font-size: 17px;
+    
+  }
+}
