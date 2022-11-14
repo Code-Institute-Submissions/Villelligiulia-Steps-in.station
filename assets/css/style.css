@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: Raleway, open Sans;
+  font-family: Raleway, "open Sans";
   font-weight: 300;
   color: bisque;
 
@@ -138,15 +138,8 @@ a {
 
 }
 
-#quote-about-left-bottom {
-  width: 80%;
-  height: 160px;
 
-  position: absolute;
-  top: 80%;
-  right: 100x;
 
-}
 
 .left-quote {
   font-family: 'Lobster Two', cursive;
@@ -220,7 +213,7 @@ a {
   width: 60%;
   font-size: 18px;
   color: rgb(93 78 54);
-  font-family: Open Sans;
+  font-family: "Open Sans";
 
   margin: 2% 5% 2% 5%;
   text-align: center;
@@ -242,10 +235,10 @@ a {
   width: 460px;
   height: 400px;
   position: relative;
-  left: 0px;
+  left: 0%;
 
   animation-name: walking-from-left;
-  animation-duration: 15s;
+   animation-duration: 15s;
   animation-delay: 10s;
   animation-fill-mode: forwards;
 }
@@ -256,10 +249,15 @@ a {
   animation-name: walking-from-right;
   animation-duration: 15s;
   animation-delay: 10s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; 
   position: relative;
-  left: 82%;
+  left: 74.8%; 
 }
+#walking-from-left {
+   animation-name: walking-from-left;
+  animation-duration: 10s;
+  animation-fill-mode: forwards;
+} 
 
 #walking-from-right {
   animation-name: walking-from-right;
@@ -268,38 +266,38 @@ a {
 }
 
 /*animation for hero section*/
-@keyframes walking-from-left {
+ @keyframes walking-from-left {
   0% {
     left: 0%;
   }
 
   100% {
-    left: 80%;
+    left: 74.8%;
   }
 
 }
 
 @keyframes walking-from-right {
   0% {
-    left: 100%;
-  }
+    left: 74.8%;
+  } 
 
   100% {
     left: 0%;
   }
-}
+} 
 
 * h4 {
   font-size: 20px;
-  font-family: lobster two;
+  font-family: "slobster two";
   color: rgb(73, 13, 13);
   text-align: center;
 }
 
 
 p {
-  color: rgb(78, 63, 36);
-  font-weight: 5px bold;
+  color: rgb(78,63,36);
+
 
   font-family: Raleway;
   font-size: 17px;
@@ -326,16 +324,16 @@ p {
 
 .step-counts-p {
   color: rgb(167, 85, 2);
-  font-family: Open Sans;
+  font-family: "Open Sans";
   font-weight: bold;
 }
 
-.bho {
-  width: 45%;
+.bho{
+  width:45%;
 }
 
-#bho1 {
-  float: left;
+#bho1{
+  float:left;
 }
 
 #bho2 {
@@ -354,14 +352,14 @@ p {
 
 
 #footer-up {
-  background-color: rgb(237, 135, 104, 0.7);
+  background-color: rgb(237,135,104,0.7);
   width: 100%;
   height: 40px;
 
 }
 
 #footer-down {
-  background-color: rgb(73, 13, 13);
+  background-color: rgb(73,13,13);
   width: 100%;
   height: 60px;
 
@@ -679,7 +677,7 @@ li#end-quote{
   margin: 0 auto;
   padding-top: 70px;
   border-bottom: #772c2c 4px double;
-  border-bottom-width: 30%
+  
 }
 
 #hr-why-it-counts {
@@ -712,7 +710,7 @@ li#end-quote{
 
   font-size: 28px;
   color: rgb(138, 121, 93);
-  font-family: lobster two;
+  font-family: "lobster two";
   padding: 8px;
   text-align: center;
 }
@@ -810,7 +808,7 @@ input:checked~.text {
 #sign-up-box {
 
   width: 60%;
-  height: 310px;
+  
 
   border-radius: 30%;
   background-color: rgba(242, 241, 241, 0.326);
@@ -832,7 +830,7 @@ input:checked~.text {
 .sign-up {
   visibility: visible;
   display: block;
-  height: 20;
+
 
   border: 2px solid bisque;
   color: #772c2c;
@@ -913,13 +911,7 @@ input:checked~.text {
 
   }
 
-  #quote-about-left-bottom {
-    width: 80%;
-    height: 160px;
-
-    position: absolute;
-    top: 80%;
-    right: 100x;
+  
 
   }
 
@@ -956,10 +948,7 @@ input:checked~.text {
     height: 800px;
   }
 
-  #hero-box-right {
-    position: relative;
-    right: 400px;
-  }
+  
 
   #hero-box-left,
   #hero-box-right {
@@ -968,7 +957,7 @@ input:checked~.text {
  #walking-from-left {
     width: 460px;
     height: 400px;
-    animation-name: walking-from-right; 
+     animation-name: walking-from-left; 
     
 
   }
@@ -985,26 +974,26 @@ input:checked~.text {
 
   }
 
-  @keyframes walking-from-left {
+   @keyframes walking-from-left {
     0% {
       left: 0%;
     }
 
     100% {
-      left: 73%;
+      left: 74%;
     }
 
   }
 
   @keyframes walking-from-right {
     0% {
-      left:76.5%;
+      left:74%;
     }
 
     100% {
-      left:0px;
+      left:0%;
     }
-  }
+  } 
 
   .step-counts-pbox {
     height: 900px;
@@ -1014,7 +1003,7 @@ input:checked~.text {
 
 
   }
-}
+
 
 /*for medium screen sizes from 860px and below */
 @media screen and (max-width: 800px) {
@@ -1053,7 +1042,7 @@ input:checked~.text {
 
 
 /*media screen for  index.html for small devices  from 700px and below */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   #step-counts-heading {
     height: 580px
   }
@@ -1089,13 +1078,14 @@ input:checked~.text {
 
   }
 
-}
+
 
 
 
 
 .step-counts-pbox p {
   font-size: 18px;
+}
 }
 
 
