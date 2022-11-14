@@ -96,9 +96,8 @@ a {
   margin-right: 70px;
 }
 
-#link3 {
-  margin-left: 70px;
-}
+
+
 
 .menu a:hover {
   color: #B3503E;
@@ -220,7 +219,7 @@ a {
 .step-counts-intro {
   width: 60%;
   font-size: 18px;
-  color: rgb(138, 121, 93);
+  color: rgb(93 78 54);
   font-family: Open Sans;
 
   margin: 2% 5% 2% 5%;
@@ -240,7 +239,7 @@ a {
 
 
 #hero-box-left {
-  width: 400px;
+  width: 460px;
   height: 400px;
   position: relative;
   left: 0px;
@@ -252,7 +251,7 @@ a {
 }
 
 #hero-box-right {
-  width: 400px;
+  width: 460px;
   height: 400px;
   animation-name: walking-from-right;
   animation-duration: 15s;
@@ -508,11 +507,12 @@ hr {
   clear: both;
   margin: 0 auto;
   width: 33%;
-  border-bottom: 2px solid #B3503E;
   border-bottom-width: 3px;
   list-style-type: none;
 
 }
+li.color-instructions{
+border-bottom: 2px solid #B3503E;}
 
 #instructions-box ul p {
   color: rgb(73, 13, 13);
@@ -595,7 +595,12 @@ hr {
   border: 4px solid #B3503E;
   padding: 50px;
   border-radius: 30%;
+  
 }
+li#end-quote{
+  border-bottom: unset;
+}
+
 
 #heart-beat {
 
@@ -615,20 +620,14 @@ hr {
 
 @keyframes color-instructions {
   0% {
-    color: #ED8768
-  }
-
-
-  50% {
-    color: #772c2c
-  }
-
-
-  100% {
-    color: #ED8768
-  }
-
+    color: rgb(185 124 106);
 }
+
+50% {
+    color: #772c2c;
+}
+100% {
+    color: #ba7d6a;}}
 
 @keyframes rotate-pic {
   0% {
@@ -656,8 +655,14 @@ hr {
 /*why it counts.html*/
 #why-it-counts-title {
   font-size: 40px;
+  width: 43%;
 
   display: inline;
+  font-family: sail;
+  color: rgb(73, 13, 13);
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
 }
 
 .wic {
@@ -948,31 +953,30 @@ input:checked~.text {
   #hero-background {
 
     margin: 0 auto;
-    height: 600px;
+    height: 800px;
   }
 
   #hero-box-right {
     position: relative;
-    left: 73%;
+    right: 400px;
   }
 
   #hero-box-left,
   #hero-box-right {
-    height: 300px;
+    height: 400px;
   }
-
-  #walking-from-left {
-    width: 300px;
-    height: 300px;
-    animation-name: walking-from-right;
+ #walking-from-left {
+    width: 460px;
+    height: 400px;
+    animation-name: walking-from-right; 
     
 
   }
 
 
   #walking-from-right {
-    width: 300px;
-    height: 300px;
+    width: 460px;
+    height: 400px;
 
     animation-delay: 10s;
 
@@ -994,11 +998,11 @@ input:checked~.text {
 
   @keyframes walking-from-right {
     0% {
-      left: 73%;
+      left:76.5%;
     }
 
     100% {
-      left: 0%;
+      left:0px;
     }
   }
 
