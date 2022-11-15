@@ -69,7 +69,7 @@ a {
 
 #navigation-links-box {
   background-color: rgb(237, 135, 104, 0.7);
-  height: 45px;
+  
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -106,6 +106,8 @@ a {
 #welcome-background {
   height: 650px;
   background-color: rgb(183, 65, 14, 0.8);
+  display:flex;
+  justify-content: center;
 }
 
 #image-container {
@@ -133,25 +135,28 @@ a {
 .left-quote {
   font-family: 'Lobster Two', cursive;
   color:rgb(241, 177, 16);
+      background-color: rgb(0, 0, 0, 0.4);
   position: absolute;
   font-size: 45px;
-  top: 200px;
+  
 }
 
 #left-bottom {
   position: absolute;
-  top: 500;
+  top: 600px;
   font-size: 35px;
-  padding: 5%;
+  padding: 3%;
+  font-size: 25px;
+    width: 59%;
+    text-align: center;
+    background-color: rgb(0, 0, 0, 0.4);
 }
 
 #right-quote {
   font-family: 'Lobster Two', cursive;
   color:rgb(241, 177, 16);
   font-size: 45px;
-  position: absolute;
-  top: 400px;
-  right: 0px;
+  background-color: rgb(0, 0, 0, 0.4);
 
 }
 
@@ -302,7 +307,7 @@ p {
 
 
 .step-counts-p {
-  color:rgb(241, 177, 16);
+  color:rgb(167, 85, 2);
   font-family: "Open Sans";
   font-weight: bold;
 }
@@ -323,7 +328,7 @@ p {
 #footer-box {
   width: 100%;
   height: 130px;
-  background: url('/../assets/image/pexels-min-an-723997.jpg') repeat center/cover;
+  background: url('../image/pexels-min-an-723997.jpg') repeat center/cover;
 
 
 }
@@ -670,7 +675,6 @@ li#end-quote {
 }
 
 #icon-directive-box-left {
-  height: 300px;
   background-color: white;
   width: 15%;
   float: left;
@@ -681,7 +685,7 @@ li#end-quote {
 }
 
 #icon-directive-box-right {
-  height: 300px;
+  
   background-color: white;
   width: 15%;
   float: right;
@@ -693,7 +697,7 @@ li#end-quote {
 
 .icon-directive {
 
-  font-size: 28px;
+  font-size: 25px;
   color: rgb(138, 121, 93);
   font-family: "lobster two";
   padding: 8px;
@@ -743,14 +747,14 @@ li#end-quote {
 
 .text {
   color: rgb(237, 135, 104, 1);
-  background-color: white;
+  background-color: antiquewhite;
   font-size: 20px;
 }
 
 
 
 
-.text,
+
 input {
 
   visibility: hidden;
@@ -760,12 +764,11 @@ input {
 
 }
 
-input:checked~.text {
-  visibility: visible;
+input .text {
 
-  display: inline;
+  display: inline;}
 
-}
+
 
 /*sign-up.html*/
 #sign-up-title-box {
@@ -792,33 +795,25 @@ input:checked~.text {
 
 #sign-up-box {
 
-  width: 60%;
-
-
-  border-radius: 30%;
-  background-color: rgba(242, 241, 241, 0.326);
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-radius: 30px;
-
-  position: absolute;
-
-  left: 18%;
-
-
-  ;
+  background-color: rgba(255, 255, 255, 0.788);
+  margin:auto;
+  color: rgb(176 98 11);
 }
 
 #legend {
-  font-size: 30px;
+  font-size: 35px;
 }
 
 
 .sign-up {
   visibility: visible;
   display: block;
-
-
-  border: 2px solid bisque;
-  color: #772c2c;
+  color: rgb(176 98 11);
   font-size: 20px;
 
   border-radius: 10px;
@@ -827,24 +822,22 @@ input:checked~.text {
   margin: 0 auto;
 }
 
-:placeholder-shown {
+/* :placeholder-shown {
 
   background-color: transparent;
   color: #772c2c;
   padding: 2%;
-}
+} */
 
 ::placeholder {
-  color: bisque;
+  color: rgb(123, 110, 94);
+  
 }
 
 
 
 #button {
-  background-color: transparent;
-  color: bisque;
-}
-
+  color: rgb(123, 110, 94);}
 /* 
 /*--media query*/
 
@@ -896,26 +889,20 @@ input:checked~.text {
 
   }
 
-
-
-}
-
-.left-quote {
-
-  position: absolute;
-
-  font-size: 35px;
-  top: 300px;
+  #left-bottom {
+    
+    top: 620px;
+  width:84%;
 
 }
 
-#left-bottom {
-  position: absolute;
-  top: 600px;
-
-  font-size: 25px;
+  
 
 }
+
+
+
+
 
 #right-quote {
 
@@ -934,32 +921,6 @@ input:checked~.text {
 }
 
 
-
-#hero-box-left,
-#hero-box-right {
-  height: 400px;
-}
-
-#walking-from-left {
-  width: 460px;
-  height: 400px;
-  animation-name: walking-from-left;
-
-
-}
-
-
-#walking-from-right {
-  width: 460px;
-  height: 400px;
-
-  animation-delay: 10s;
-
-
-
-
-}
-
 @keyframes walking-from-left {
   0% {
     left: 0%;
@@ -973,7 +934,7 @@ input:checked~.text {
 
 @keyframes walking-from-right {
   0% {
-    left: 74%;
+    left: 72%;
   }
 
   100% {
@@ -994,14 +955,9 @@ input:checked~.text {
 /*for medium screen sizes from 860px and below */
 @media screen and (max-width: 800px) {
 
-  #logo {
-    justify-content: unset;
-  }
+  
 
-  #navigation-links-box {
-    height: 160px;
-    display: list-item;
-  }
+  
 
   .menu li {
     display: block;
@@ -1092,6 +1048,11 @@ input:checked~.text {
     display: inline-table;
   }
 }
+@media screen and (max-width: 400px) {
+  #hero-box-left, #hero-box-right {
+    width:60%;
+  }
+}
 
 /*media screen for  just-few-steps.html for small devices  from 1200px and below */
 @media screen and (max-width: 1200px) {
@@ -1167,13 +1128,10 @@ input:checked~.text {
 /*media screen for size from 1200px and below for why-it-counts.html*/
 @media screen and (max-width:1000px) {
   #wic-box {
-    height: 500px;
+    height: 620px;
   }
 
-  #icon-directive-box-left,
-  #icon-directive-box-right {
-    height: 420px;
-  }
+  
 
 }
 
@@ -1183,7 +1141,7 @@ input:checked~.text {
 
 @media screen and (max-width:800px) {
   #wic-box {
-    height: 600px;
+    height: 630px;
 
   }
 
@@ -1193,18 +1151,18 @@ input:checked~.text {
   }
 
   .icon-directive {
-    font-size: 20px;
-  }
+    font-size: 23px;
+
+}
 }
 
-/*media screen for size from 500px and below for why-it-counts.html*/
+/*media screen for size from 600px and below for why-it-counts.html*/
 @media screen and (max-width:600px) {
+  
 
   #icon-directive-box-right,
   #icon-directive-box-left {
-    width: unset;
-    height: 130px;
-  }
+    width: unset;}
 
   #icon-directive-box-left {
     border-top: #772c2c 6px double;
@@ -1213,8 +1171,18 @@ input:checked~.text {
   #gif-container {
     width: 100%;
   }
+}@media screen and (max-width:500px) {
+  #wic-box{
+    height:720px;
+    padding-bottom:30%;
 }
-
+}
+@media screen and (max-width:400px) {
+  #reasons-container {
+    flex-direction:column
+  }
+  
+}
 /*media screen for size from 600px and below for sign-up.html*/
 @media screen and (max-width:500px) {
   #sign-up-box {
