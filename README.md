@@ -1,19 +1,19 @@
 # Step Counts
-Step Counts is a four-pages website who advertises the Step-Counts App, an application for mobile devices based on a steps counter who converts every step made into money instantly. This App is conceived to encourage people to increase their daily movement with easy activity such as walking  as they would be immediately financially rewarded by doing that. This app is target for every person who is looking for motivation to start doing some exersise as also for every person whos already enjoy walkimg as part of their daily routine and who can take advantage from this habit.
+Step Counts is a four-pages website who advertises the Step-Counts App, an application for mobile devices based on a steps counter who converts every step made into money instantly. This App is conceived to encourage people to increase their daily movement with easy activity such as walking  as they would be immediately financially rewarded by doing that. This app targets every person who is looking for motivation to start doing some exersise as also it suits to those who already enjoy walkimg as part of their daily routine and who can take advantage from this habit.
 
-*spazio per screenshot*
+![Responsive project on different screens](assets/image/responsive-step-counts.jpg)
 
 # Website Structure
 The website is structured in four pages, showed on the navigation bar on top of the website page.
 
-1. The main page :Step in. 
-- It contains an introduction of the app, explaining its main purpose as also a brief lecture of the benefits of walking and reason that would encorage the user to dowload the app and start walking.
-2. Second page: Just few steps.
+1. ## The main page : Step in. 
+- It contains an introduction of the app, explaining its main purpose as also a brief lecture of the benefits of walking and reasons that would encorage the user to dowload the app and start walking.
+2. ## Second page: Just few steps.
 - It explains how the app works, how to dowload it and how to use it.
-3. Third page: Why it Counts:
+3. ## Third page: Why it Counts:
 - It explains 10 of many benefits that a daily walk can apport to the user life.
-4. Fourth page: Sign-up.
-- A Sign up form to get the Step Counts Promo Code, an incentive of 30k steps or the equivalent of 7.5 euros that the user .The user will be able to use this Code after dowloading the app.
+4. ## Fourth page: Sign-up.
+- A Sign up form to get the Step Counts Promo Code, an incentive of 30k steps or the equivalent of 7.5 euros. The user will be able to use this Code after dowloading the app.
 - Step code-page: This page is linked to the Sign-up page. It will show up on a blank page once the user will fill out the Sign up form. 
 
 ## Features
