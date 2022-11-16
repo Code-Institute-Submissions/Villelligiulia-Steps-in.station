@@ -594,7 +594,7 @@ li#end-quote {
 #gif-container {
     height: 500px;
 
-    background: url("../image/gif.walking.gif") no-repeat center center;
+    background: url("../image/gif-walking.gif") no-repeat center center;
     display: flex;
     justify-content: center;
 }
