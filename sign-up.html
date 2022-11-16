@@ -1,123 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Step-counts is a step-counter app that converts the steps made in money.">
+        <meta name="keywords" content="steps, walking, love walking, health, exercise, convert, money">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>Step Counts</title>
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Step-in station enco">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Step in station</title>
-</head>
+    <body>
+        <header>
+            <div id="top-page">
+                <a href="index.html" aria-label="index.html">
+                    <h1 id="logo">
+                        <i class="fa-solid fa-shoe-prints" id="steps"><i class="fa-solid fa-shoe-prints" id="smaller-steps"></i></i>
+                    </h1>
+                </a>
+            </div>
+            <div id="navigation-links-box">
+                <nav>
+                    <ul class="menu">
+                        <li>
+                            <a href="index.html" aria-label="index.html">Step-in <i class="fa-solid fa-shoe-prints"></i> </a>
+                        </li>
+                        <li id="link2">
+                            <a href="just-few-steps.html" aria-label="just-few-steps.html" class="light-font">Just few steps <i class="fa-sharp fa-solid fa-gears"></i></a>
+                        </li>
+                        <li id="link3">
+                            <a href="why-it-counts.html" aria-label="why-it-counts.html">Why it Counts <i class="fa-solid fa-clipboard-question"></i></a>
+                        </li>
 
-<body>
-    <header>
-        <div id="top-page">
-            <a href="index.html" aria-label="index.html">
-                <h1 id="logo"> <i class="fa-solid fa-shoe-prints" id="steps"><i class="fa-solid fa-shoe-prints"
-                            id="smaller-steps"></i></i></h1>
-            </a>
-        </div>
-        <div id="navigation-links-box">
-            <nav>
+                        <li>
+                            <a href="sign-up.html" aria-label="sign-up-html" class="light-font">Sign up <i class="fa-regular fa-pen-to-square"></i></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <section>
+            <hr>
+            <div id="sign-up-title-box">
+                <h2 class="step-counts">Sign up</h2>
+            </div>
+            <div class="wic">
+                <h3 class="step-counts-intro">
+                    After dowloading "STEP-COUNTs" app, Sign up and receive the Step-Counts promo code that will give you a start off incentive of 30k steps that you can convert immediately or add to the steps you will make and convert
+                    later on when you are happy with the amount of steps you have made.
+                </h3>
+            </div>
+            <h3 class="color-instructions" id="wic-slogan">Enjoy your walk!</h3>
 
-                
-                <ul class="menu ">
-                    <li><a href="index.html" aria-label="index.html">Step-in <i class="fa-solid fa-shoe-prints"></i>
-                        </a></li>
-                    <li id="link2"> <a href="just-few-steps.html" aria-label="just-few-steps.html"
-                            class="light-font">Just few steps <i class="fa-sharp fa-solid fa-gears"></i></a></li>
-                    <li id="link3"><a href="why-it-counts.html" aria-label="why-it-counts.html">Why it Counts <i
-                                class="fa-solid fa-clipboard-question"></i></a></li>
+            <hr>
 
-                    <li><a href="sign-up.html" aria-label="sign-up-html" class="light-font">Sign up <i
-                                class="fa-regular fa-pen-to-square"></i></a></li>
+            <div id="sign-up-background">
+                <form method="get" action="../step-code.html" target="_blank">
+                    <fieldset id="sign-up-box">
+                        <legend id="legend">Get Your Promo Code</legend>
 
+                        <label for="name">Name</label>
+
+                        <input class="sign-up" type="text" id="name" name="username" placeholder="Type Your Name" required>
+                        <hr>
+                        <label for="email">Email Address</label>
+                        <input class="sign-up" type="email" id="email" name="email" placeholder="Type Your Email Address" required>
+                        <hr>
+                        <input type="submit" class="sign-up" value="Sign-up" id="button">
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div id="footer-box"></div>
+            <div id="footer-up">
+                <ul class="social-networks">
+                    <li>
+                        <a href="http://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page"><i class="fa-brands fa-square-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page"><i class="fa-brands fa-square-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href="http://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page"><i class="fa-brands fa-instagram"></i> </a>
+                    </li>
                 </ul>
+            </div>
 
-            </nav>
-        </div>
-    </header>
-    <section>
-        <hr>
-        <div id="sign-up-title-box">
-            <h2 class="step-counts">Sign up</h2>
-        </div>
-        <div class="wic">
-            <h3 class="step-counts-intro ">After dowloading "STEP-COUNTs" app, Sign up and receive the Step-Counts
-                promo
-                code that will give you a start off incentive of 30k steps that you can convert immediately or add to
-                the steps you will make and convert later on when you are happy with the amount of steps you have made.
-            </h3>
-        </div>
-        <h3 class="color-instructions " id="wic-slogan"> Enjoy your walk!</h3>
+            <div id="footer-down"></div>
+        </footer>
 
-<hr>
-
-
-        <div id="sign-up-background">
-            <form method="get" action="../step-code.html" target="_blank">
-                <fieldset id="sign-up-box">
-                    <legend id="legend">Get Your Promo Code</legend>
-
-
-                    <label for="name">Name</label>
-
-
-
-                    <input class="sign-up" type="text" id="name" name="username" placeholder="Type Your Name" required>
-                    <hr>
-                    <label for="email">Email Address</label>
-                    <input class="sign-up" type="email" id="email" name="email" placeholder="Type Your Email Address"
-                        required>
-                    <hr>
-                    <input type="submit" class="sign-up " value="Sign-up" id="button">
-
-
-
-                </fieldset>
-            </form>
-
-
-
-            
-        </div>
-    </section>
-
-
-
-    <footer>
-        <div id="footer-box">
-        </div>
-        <div id="footer-up">
-            <ul class="social-networks">
-                <li>
-                    <a href="http://www.facebook.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Facebook page"><i class="fa-brands fa-facebook "></i></a>
-                </li>
-                <li>
-                    <a href="http://www.twitter.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Twitter page"><i class="fa-brands fa-square-twitter"></i></a>
-                </li>
-                <li>
-                    <a href="http://www.youtube.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Youtube page"><i class="fa-brands fa-square-youtube "></i></a>
-                </li>
-                <li>
-                    <a href="http://www.instagram.com" target="_blank" rel="noopener"
-                        aria-label="Visit our Instagram page"><i class="fa-brands fa-instagram"></i>
-                    </a>
-                </li>
-            </ul>
-
-        </div>
-
-        <div id="footer-down"></div>
-    </footer>
-
-
-    <!--font awesome script-->
-    <script src="https://kit.fontawesome.com/40e96c6555.js" crossorigin="anonymous"></script>
-</body>
-
+        <!--font awesome script-->
+        <script src="https://kit.fontawesome.com/40e96c6555.js" crossorigin="anonymous"></script>
+    </body>
 </html>

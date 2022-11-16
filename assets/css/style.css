@@ -1,825 +1,683 @@
-@import url('https://fonts.googleapis.com/css2?family=Donegal+One&family=Forum&family=Lobster&family=Lobster+Two:ital@1&family=Open+Sans:ital@1&family=Raleway:ital,wght@0,600;1,300&family=Sail&family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital@1&family=Open+Sans:ital@1&family=Raleway:ital,wght@0,600;1,300&family=Sail&display=swap');
 
 * {
-  border: none;
-  margin: 0;
-  padding: 0;
+    border: none;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  font-family: Raleway, "open Sans";
-  font-weight: 300;
-  color: rgba(128, 118, 107, 0.747);
-
+    font-family: Raleway, "open Sans";
+    font-weight: 300;
+    color: rgba(128, 118, 107, 0.747);
 }
 
 /*headings and logo*/
 
 #top-page {
-  background-color: rgb(73, 13, 13);
-  width: 100%;
-  height: 130px;
-
-
+    background-color: rgb(73, 13, 13);
+    width: 100%;
+    height: 130px;
 }
 
 #logo {
-  color: #B3503E;
-  display: flex;
-  justify-content: center;
+    color: #b3503e;
+    display: flex;
+    justify-content: center;
 
-  padding-top: 10px;
-
-
-
+    padding-top: 10px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
-
-
-
-
 #steps {
-  font-size: 50px;
+    font-size: 50px;
 
-  border: solid;
-  border-width: 5px;
-  border-radius: 50%;
-  padding: 20px;
-  display: flex;
-  align-items: center;
+    border: solid;
+    border-width: 5px;
+    border-radius: 50%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
 #smaller-steps {
-  font-size: smaller;
-  color: #ED8768;
+    font-size: smaller;
+    color: #ed8768;
 }
 
 #steps:hover {
-  font-size: 50px;
+    font-size: 50px;
 }
 
 #smaller-steps:hover {
-  font-size: 60px;
+    font-size: 60px;
 }
 
-
 #navigation-links-box {
-  background-color: rgb(237, 135, 104, 0.7);
-  
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: stretch;
+    background-color: rgb(237, 135, 104, 0.7);
 
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
 
 .menu a {
-  text-decoration: none;
-  color: inherit;
-  font-family: 'Lobster Two', cursive;
-  color: rgb(73, 13, 13);
-  padding: 70px;
-  font-size: 30px;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Lobster Two", cursive;
+    color: rgb(73, 13, 13);
+    padding: 70px;
+    font-size: 30px;
 }
 
 .menu li {
-  display: inline;
+    display: inline;
 }
-
 
 #link2 {
-  margin-right: 70px;
+    margin-right: 70px;
 }
 
-
-
-
 .menu a:hover {
-  color: #B3503E;
+    color: #b3503e;
 }
 
 /* welcome section*/
 #welcome-background {
-  height: 650px;
-  background-color: rgb(183, 65, 14, 0.8);
-  display:flex;
-  justify-content: center;
+    height: 650px;
+    background-color: rgb(183, 65, 14, 0.8);
+    display: flex;
+    justify-content: center;
 }
 
 #image-container {
-  width: 80%;
-  height: 600px;
-  margin: 0 auto;
-  background: url("../image/pexels-nicolas-14348399 (2).jpg")no-repeat center center;
+    width: 80%;
+    height: 600px;
+    margin: 0 auto;
+    background: url("../image/steps-on-stairs.jpg") no-repeat center center;
 }
-
-
-
-
 
 #quotes-about-right {
-  width: 100%;
-  height: 150px;
-  overflow: hidden;
-  position: absolute;
-  right: 10px;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
 }
 
-
-
-
 .left-quote {
-  font-family: 'Lobster Two', cursive;
-  color:rgb(241, 177, 16);
-      background-color: rgb(0, 0, 0, 0.4);
-  position: absolute;
-  font-size: 45px;
-  
+    font-family: "Lobster Two", cursive;
+    color: rgb(241, 177, 16);
+    background-color: rgb(0, 0, 0, 0.4);
+    position: absolute;
+    font-size: 45px;
 }
 
 #left-bottom {
-  position: absolute;
-  top: 600px;
-  font-size: 35px;
-  padding: 3%;
-  font-size: 25px;
+    position: absolute;
+    top: 600px;
+    font-size: 35px;
+    padding: 3%;
+    font-size: 25px;
     width: 59%;
     text-align: center;
     background-color: rgb(0, 0, 0, 0.4);
 }
 
 #right-quote {
-  font-family: 'Lobster Two', cursive;
-  color:rgb(241, 177, 16);
-  font-size: 45px;
-  background-color: rgb(0, 0, 0, 0.4);
-
+    font-family: "Lobster Two", cursive;
+    color: rgb(241, 177, 16);
+    font-size: 45px;
+    background-color: rgb(0, 0, 0, 0.4);
 }
-
-
 
 /*Step-counts-introduction section*/
 
 #step-counts-heading {
-
-  height: 500px;
-  margin-top: 50px;
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-
+    height: 500px;
+    margin-top: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .step-counts {
+    font-family: sail;
+    color: rgb(73, 13, 13);
+    background-color: transparent;
+    font-size: 120px;
 
-  font-family: sail;
-  color: rgb(73, 13, 13);
-  background-color: transparent;
-  font-size: 120px;
-
-  width: 100%;
-  text-align: center;
-  margin: -1.5%;
-
-
-
-
+    width: 100%;
+    text-align: center;
+    margin: -1.5%;
 }
 
 .step-counts-intro {
-  width: 60%;
-  font-size: 18px;
-  color: rgb(93 78 54);
-  font-family: "Open Sans";
+    width: 60%;
+    font-size: 18px;
+    color: rgb(93 78 54);
+    font-family: "Open Sans";
 
-  margin: 2% 5% 2% 5%;
-  text-align: center;
-
-
-
-
+    margin: 2% 5% 2% 5%;
+    text-align: center;
 }
 
 /*hero section*/
 #hero-background {
-  width: 100%;
-  height: 800px;
-  background-color: rgb(245, 238, 238);
+    width: 100%;
+    height: 800px;
+    background-color: rgb(245, 238, 238);
 }
 
-
 #hero-box-left {
-  width: 460px;
-  height: 400px;
-  position: relative;
-  left: 0%;
+    width: 460px;
+    height: 400px;
+    position: relative;
+    left: 0%;
 
-  animation-name: walking-from-left;
-  animation-duration: 15s;
-  animation-delay: 10s;
-  animation-fill-mode: forwards;
+    animation-name: walking-from-left;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
 }
 
 #hero-box-right {
-  width: 460px;
-  height: 400px;
-  animation-name: walking-from-right;
-  animation-duration: 15s;
-  animation-delay: 10s;
-  animation-fill-mode: forwards;
-  position: relative;
-  left: 74.8%;
+    width: 460px;
+    height: 400px;
+    animation-name: walking-from-right;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+    position: relative;
+    left: 74.8%;
 }
 
 #walking-from-left {
-  animation-name: walking-from-left;
-  animation-duration: 10s;
-  animation-fill-mode: forwards;
+    animation-name: walking-from-left;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
 
 #walking-from-right {
-  animation-name: walking-from-right;
-  animation-duration: 10s;
-  animation-fill-mode: forwards;
+    animation-name: walking-from-right;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
 }
 
 /*animation for hero section*/
 @keyframes walking-from-left {
-  0% {
-    left: 0%;
-  }
+    0% {
+        left: 0%;
+    }
 
-  100% {
-    left: 74.8%;
-  }
-
+    100% {
+        left: 74.8%;
+    }
 }
 
 @keyframes walking-from-right {
-  0% {
-    left: 74.8%;
-  }
+    0% {
+        left: 74.8%;
+    }
 
-  100% {
-    left: 0%;
-  }
+    100% {
+        left: 0%;
+    }
 }
 
 * h4 {
-  font-size: 20px;
-  font-family: "slobster two";
-  color: rgb(73, 13, 13);
-  text-align: center;
+    font-size: 20px;
+    font-family: "slobster two";
+    color: rgb(73, 13, 13);
+    text-align: center;
 }
 
-
 p {
-  color: rgb(78, 63, 36);
+    color: rgb(78, 63, 36);
 
-
-  font-family: Raleway;
-  font-size: 17px;
-
+    font-family: Raleway;
+    font-size: 17px;
 }
 
 .step-counts-pbox {
+    padding: 100px 30px 20px 30px;
+    background-color: rgb(245, 238, 238, 0.6);
 
-  padding: 100px 30px 20px 30px;
-  background-color: rgb(245, 238, 238, 0.6);
-
-  border: 2px solid rgb(167, 85, 2);
-  height: 500px;
-
+    border: 2px solid rgb(167, 85, 2);
+    height: 500px;
 }
 
 .step-counts-pbox p {
-  font-size: 18px;
+    font-size: 18px;
 }
-
-
-
-
 
 .step-counts-p {
-  color:rgb(167, 85, 2);
-  font-family: "Open Sans";
-  font-weight: bold;
+    color: rgb(167, 85, 2);
+    font-family: "Open Sans";
+    font-weight: bold;
 }
 
-.bho {
-  width: 45%;
+.about-step-counts {
+    width: 45%;
 }
 
-#bho1 {
-  float: left;
+#step-counts-part1 {
+    float: left;
 }
 
-#bho2 {
-  float: right;
+#step-counts-part2 {
+    float: right;
 }
 
 /*footer*/
 #footer-box {
-  width: 100%;
-  height: 130px;
-  background: url('../image/pexels-min-an-723997.jpg') repeat center/cover;
-
-
+    width: 100%;
+    height: 130px;
+    background: url("../image/steps-on-sand.jpg") repeat center/cover;
 }
 
-
-
 #footer-up {
-  background-color: rgb(237, 135, 104, 0.7);
-  width: 100%;
-  height: 40px;
-
+    background-color: rgb(237, 135, 104, 0.7);
+    width: 100%;
+    height: 40px;
 }
 
 #footer-down {
-  background-color: rgb(73, 13, 13);
-  width: 100%;
-  height: 60px;
-
+    background-color: rgb(73, 13, 13);
+    width: 100%;
+    height: 60px;
 }
 
 .social-networks {
-  text-align: center;
-
+    text-align: center;
 }
 
 .social-networks li {
-  display: inline;
+    display: inline;
 }
 
 .social-networks i {
-  color: rgb(73, 13, 13);
-  font-size: 30px;
-  line-height: 40px;
-  margin-right: 4%;
-
+    color: rgb(73, 13, 13);
+    font-size: 30px;
+    line-height: 40px;
+    margin-right: 4%;
 }
 
 /*add decoration to footer*/
 .social-networks i:hover {
-  color: #B3503E;
+    color: #b3503e;
 }
 
 /*end of index.html*/
 
 /*just few steps heading*/
 hr {
-  height: 20px;
+    height: 20px;
 }
 
 #app-intro {
-
-  margin-top: 70px;
-  width: 100%;
-
-
-
-
-
-
+    margin-top: 70px;
+    width: 100%;
 }
-
 
 .intro {
-
-  width: 90%;
-  margin-left: 5%;
-  display: flex;
-  justify-content: center;
-
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
 }
 
-
-
-
-
 #slogan {
-  width: 30%;
-  clear: both;
-  margin: 0 auto;
-  font-size: 30px;
-  color: rgb(73, 13, 13);
-  font-family: Raleway;
-  font-style: italic;
-  display: inline;
-  margin: 200px 0 0 40%;
-
-
-
-
-
-
-
-
+    width: 30%;
+    clear: both;
+    margin: 0 auto;
+    font-size: 30px;
+    color: rgb(73, 13, 13);
+    font-family: Raleway;
+    font-style: italic;
+    display: inline;
+    margin: 200px 0 0 40%;
 }
 
 .dots-like {
-  display: inline;
+    display: inline;
 
-  margin: 0 auto;
-  text-align: center;
+    margin: 0 auto;
+    text-align: center;
 
-
-  animation-name: dots-like;
-  animation-iteration-count: infinite;
-  animation-duration: 2s;
-
+    animation-name: dots-like;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
 }
 
 #dots-like2 {
-
-  animation-delay: 0.5s;
+    animation-delay: 0.5s;
 }
 
 #dots-like3 {
-
-  animation-delay: 1s;
+    animation-delay: 1s;
 }
 
 @keyframes dots-like {
-  0% {
-    color: rgb(0, 0, 0);
-  }
+    0% {
+        color: rgb(0, 0, 0);
+    }
 
-  100% {
-    color: rgba(0, 0, 0, 0);
-  }
+    100% {
+        color: rgba(0, 0, 0, 0);
+    }
 }
 
 /*step counts instructions*/
 #background-instructions {
-  background-color: rgb(237, 135, 104, 0.7);
-
+    background-color: rgb(237, 135, 104, 0.7);
 }
-
 
 #instructions-box {
+    overflow: hidden;
+    width: 70%;
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+    background-color: white;
 
-  overflow: hidden;
-  width: 70%;
-  text-align: center;
-  clear: both;
-  margin: 0 auto;
-  background-color: white;
-
-  border-left: 3px solid rgb(73, 13, 13);
-  border-right: 3px solid rgb(73, 13, 13);
-  margin-top: 50px;
-  text-align: center;
-
-
+    border-left: 3px solid rgb(73, 13, 13);
+    border-right: 3px solid rgb(73, 13, 13);
+    margin-top: 50px;
+    text-align: center;
 }
 
-#instructions-box li {
-
-  color: rgb(73, 13, 13);
-  font-size: 30px;
-  text-align: center;
-  clear: both;
-  margin: 0 auto;
-  width: 33%;
-  border-bottom-width: 3px;
-  list-style-type: none;
-
+#instructions-box div {
+    color: rgb(73, 13, 13);
+    font-size: 30px;
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+    width: 33%;
+    border-bottom-width: 3px;
+    list-style-type: none;
 }
 
-li.color-instructions {
-  border-bottom: 2px solid #B3503E;
+div.color-instructions {
+    border-bottom: 2px solid #b3503e;
 }
 
-#instructions-box ul p {
-  color: rgb(73, 13, 13);
+#instructions-box p {
+    color: rgb(73, 13, 13);
 }
 
 .round-pic {
-  width: 300px;
-  height: 300px;
-  border-radius: 50%;
-  border: 9px double rgb(73, 13, 13);
-  ;
-  position: relative;
-  right: 800px;
-  animation-name: rotate-pic;
-  animation-fill-mode: forwards;
-  animation-duration: 5s;
+    border-radius: 50%;
+    border: 9px double rgb(73, 13, 13);
+    position: relative;
+    right: 900px;
+    animation-name: rotate-pic;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
 }
 
 #sc1 {
-  animation-name: rotate-pic;
-  animation-fill-mode: forwards;
-  animation-duration: 5s;
-  animation-delay: 3s;
+    animation-name: rotate-pic;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    animation-delay: 3s;
 }
 
 #sc2 {
-  animation-name: rotate-pic;
-  animation-fill-mode: forwards;
-  animation-duration: 5s;
-  animation-delay: 6s;
+    animation-name: rotate-pic;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    animation-delay: 6s;
 }
 
 .sc3 {
-  animation-name: rotate-pic;
-  animation-fill-mode: forwards;
-  animation-duration: 5s;
-  animation-delay: 9s;
-
-
+    animation-name: rotate-pic;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    animation-delay: 9s;
 }
 
 #sc4 {
-  animation-name: rotate-pic;
-  animation-fill-mode: forwards;
-  animation-duration: 5s;
-  animation-delay: 12s;
-
+    animation-name: rotate-pic;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    animation-delay: 12s;
 }
 
 #sc5 {
-  animation-name: rotate-pic;
-  animation-fill-mode: forwards;
-  animation-duration: 5s;
-  animation-delay: 15s;
-
+    animation-name: rotate-pic;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    animation-delay: 15s;
 }
 
 #sc6 {
-  animation-name: rotate-pic;
-  animation-fill-mode: forwards;
-  animation-duration: 5s;
-  animation-delay: 18s;
-
+    animation-name: rotate-pic;
+    animation-fill-mode: forwards;
+    animation-duration: 5s;
+    animation-delay: 18s;
 }
 
-
-
-
-
 .color-instructions {
-
-  animation-name: color-instructions;
-  animation-direction: alternate-reverse;
-  animation-iteration-count: infinite;
-  animation-duration: 1.2s;
-
+    animation-name: color-instructions;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-duration: 1.2s;
 }
 
 #end-quote {
-  border: 4px solid #B3503E;
-  padding: 50px;
-  border-radius: 30%;
-
+    border: 4px solid #b3503e;
+    padding: 50px;
+    border-radius: 30%;
 }
 
 li#end-quote {
-  border-bottom: unset;
+    border-bottom: unset;
 }
 
-
 #heart-beat {
+    animation-name: heart-beat;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 
-  animation-name: heart-beat;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-
-  animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
 }
 
 /*animation instructions */
 
-
-
-
-
-
 @keyframes color-instructions {
-  0% {
-    color: rgb(185 124 106);
-  }
+    0% {
+        color: rgb(185 124 106);
+    }
 
-  50% {
-    color: #772c2c;
-  }
+    50% {
+        color: #772c2c;
+    }
 
-  100% {
-    color: #ba7d6a;
-  }
+    100% {
+        color: #ba7d6a;
+    }
 }
 
 @keyframes rotate-pic {
-  0% {
-    transform: rotate(0deg);
-    right: 100%;
-  }
+    0% {
+        transform: rotate(0deg);
+        right: 100%;
+    }
 
-  100% {
-    transform: rotate(360deg);
-    right: 0%;
-  }
-
+    100% {
+        transform: rotate(360deg);
+        right: 0%;
+    }
 }
 
 @keyframes heart-beat {
-  0% {
-    font-size: 30px;
-  }
+    0% {
+        font-size: 30px;
+    }
 
-  100% {
-    font-size: 35px;
-  }
+    100% {
+        font-size: 35px;
+    }
 }
 
 /*why it counts.html*/
 #why-it-counts-title {
-  font-size: 40px;
-  width: 43%;
+    font-size: 40px;
+    width: 43%;
 
-  display: inline;
-  font-family: sail;
-  color: rgb(73, 13, 13);
-  justify-content: flex-end;
-  align-items: flex-end;
-  display: flex;
+    display: inline;
+    font-family: sail;
+    color: rgb(73, 13, 13);
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
 }
 
 .wic {
-  width: 100%;
-  display: flex;
-  justify-content: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 #wic-slogan {
-  font-size: 50px;
-  width: 40%;
-  text-align: center;
-  clear: both;
-  margin: 0 auto;
-  padding-top: 70px;
-  border-bottom: #772c2c 4px double;
-
+    font-size: 50px;
+    width: 40%;
+    text-align: center;
+    clear: both;
+    margin: 0 auto;
+    padding-top: 70px;
+    border-bottom: #772c2c 4px double;
 }
 
 #hr-why-it-counts {
-  height: 62px;
+    height: 62px;
 }
 
 #icon-directive-box-left {
-  background-color: white;
-  width: 15%;
-  float: left;
-  border: #772c2c 6px double;
-  border-top: none;
-  border-left: none;
-
+    background-color: white;
+    width: 15%;
+    float: left;
+    border: #772c2c 6px double;
+    border-top: none;
+    border-left: none;
 }
 
 #icon-directive-box-right {
-  
-  background-color: white;
-  width: 15%;
-  float: right;
-  border: #772c2c 6px double;
-  border-top: none;
-  border-right: none;
-
+    background-color: white;
+    width: 15%;
+    float: right;
+    border: #772c2c 6px double;
+    border-top: none;
+    border-right: none;
 }
 
 .icon-directive {
-
-  font-size: 25px;
-  color: rgb(138, 121, 93);
-  font-family: "lobster two";
-  padding: 8px;
-  text-align: center;
+    font-size: 25px;
+    color: rgb(138, 121, 93);
+    font-family: "lobster two";
+    padding: 8px;
+    text-align: center;
 }
 
-
-
-
 #wic-box {
-  height: 500px;
-  width: 100%;
-  background-color: #F59F78;
-
-
-
+    height: 500px;
+    width: 100%;
+    background-color: #f59f78;
 }
 
 #gif-container {
-  height: 500px;
+    height: 500px;
 
-  background: url('../image/ezgif.com-gif-maker (1).gif') no-repeat center center;
-  display: flex;
-  justify-content: center;
-
-
+    background: url("../image/gif.walking.gif") no-repeat center center;
+    display: flex;
+    justify-content: center;
 }
 
 .reason-box {
+    background-color: rgb(245, 238, 238, 0.6);
 
-  border: 2px double rgb(73, 13, 13);
-  background-color: bisque;
+    border: 2px solid rgb(167, 85, 2);
 }
 
 #reasons-container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  background-color: #F59F78;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(123, 110, 94);
 }
 
 .reasons {
-
-  color: #772c2c;
-  font-size: 30px;
+    color: #772c2c;
+    font-size: 30px;
 }
 
 .text {
-  color: rgb(237, 135, 104, 1);
-  background-color: antiquewhite;
-  font-size: 20px;
+    color: rgb(167, 85, 2);
+    font-size: 20px;
+    background-color: white;
 }
 
-
-
-
-
 input {
-
-  visibility: hidden;
-
-
-
-
+    visibility: hidden;
 }
 
 input .text {
-
-  display: inline;}
-
-
+    display: inline;
+}
 
 /*sign-up.html*/
 #sign-up-title-box {
-  width: 100%;
-  height: 130px;
+    width: 100%;
+    height: 130px;
 }
 
 #dowload-app-box {
-  width: 70%;
-  height: 300px;
-  display: flex;
-  justify-content: center;
+    width: 70%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 #sign-up-background {
-  background: url("../image/pexels-james-wheeler-3988366.jpg") no-repeat center;
-  background-size: cover;
-  background-position: center;
-  height: 800px;
-  text-align: center;
-  background-color: #F59F78;
-
+    background: url("../image/wood-pathwalk-in-the-forest.jpg") no-repeat center;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+    text-align: center;
+    background-color: #f59f78;
 }
 
 #sign-up-box {
-
-  width: 70%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 30px;
-  background-color: rgba(255, 255, 255, 0.788);
-  margin:auto;
-  color: rgb(176 98 11);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.788);
+    margin: auto;
+    color: rgb(176 98 11);
 }
 
 #legend {
-  font-size: 35px;
+    font-size: 35px;
 }
 
-
 .sign-up {
-  visibility: visible;
-  display: block;
-  color: rgb(176 98 11);
-  font-size: 20px;
+    visibility: visible;
+    display: block;
+    color: rgb(176 98 11);
+    font-size: 20px;
 
-  border-radius: 10px;
-  padding: 2%;
-  clear: both;
-  margin: 0 auto;
+    border-radius: 10px;
+    padding: 2%;
+    clear: both;
+    margin: 0 auto;
 }
 
 /* :placeholder-shown {
@@ -830,369 +688,299 @@ input .text {
 } */
 
 ::placeholder {
-  color: rgb(123, 110, 94);
-  
+    color: rgb(123, 110, 94);
 }
 
-
-
 #button {
-  color: rgb(123, 110, 94);}
+    color: rgb(123, 110, 94);
+    background-color: white;
+}
 /* 
 /*--media query*/
 
-@media screen and (max-width:1260px) {
+@media screen and (max-width: 1260px) {
+    #navigation-links-box {
+        display: flex;
+        justify-content: center;
+        clear: both;
+        margin: 0 auto;
+    }
 
-  #navigation-links-box {
+    .menu a {
+        padding: 9px;
+    }
 
-    display: flex;
-    justify-content: center;
-    clear: both;
-    margin: 0 auto;
+    #menu-right li {
+        float: right;
+    }
 
-  }
+    #step-counts-heading {
+        height: 530px;
+        clear: both;
+        margin: 0 auto;
+    }
 
-  .menu a {
-    padding: 9px;
-  }
+    #welcome-background {
+        height: 700px;
+        margin: 0 auto;
+    }
 
-  #menu-right li {
-    float: right;
-  }
+    #image-container {
+        width: 90%;
+    }
 
-  #step-counts-heading {
+    #quotes-about-right {
+        width: 100%;
+        height: 150px;
+        overflow: hidden;
+        position: absolute;
+    }
 
-    height: 530px;
-    clear: both;
-    margin: 0 auto;
-  }
-
-  #welcome-background {
-
-    height: 700px;
-    margin: 0 auto;
-  }
-
-  #image-container {
-    width: 90%;
-  }
-
-  #quotes-about-right {
-
-    width: 100%;
-    height: 150px;
-    overflow: hidden;
-    position: absolute;
-
-
-
-
-  }
-
-  #left-bottom {
-    
-    top: 620px;
-  width:84%;
-
+    #left-bottom {
+        top: 620px;
+        width: 84%;
+    }
 }
-
-  
-
-}
-
-
-
-
 
 #right-quote {
-
-  font-size: 35px;
-  position: absolute;
-  top: 500px;
-
-
-
+    font-size: 35px;
+    position: absolute;
+    top: 500px;
 }
 
 #hero-background {
-
-  margin: 0 auto;
-  height: 800px;
+    margin: 0 auto;
+    height: 800px;
 }
 
-
 @keyframes walking-from-left {
-  0% {
-    left: 0%;
-  }
+    0% {
+        left: 0%;
+    }
 
-  100% {
-    left: 74%;
-  }
-
+    100% {
+        left: 74%;
+    }
 }
 
 @keyframes walking-from-right {
-  0% {
-    left: 72%;
-  }
+    0% {
+        left: 72%;
+    }
 
-  100% {
-    left: 0%;
-  }
+    100% {
+        left: 0%;
+    }
 }
 
 .step-counts-pbox {
-  height: 900px;
-  padding-top: 150px;
-
-
-
-
+    height: 900px;
+    padding-top: 150px;
 }
-
 
 /*for medium screen sizes from 860px and below */
 @media screen and (max-width: 800px) {
+    .menu li {
+        display: block;
+    }
 
-  
+    .left-quote {
+        font-size: 30px;
+    }
 
-  
+    #right-quote {
+        font-size: 30px;
+    }
 
-  .menu li {
-    display: block;
-
-  }
-
-  .left-quote {
-    font-size: 30px;
-  }
-
-  #right-quote {
-    font-size: 30px;
-  }
-
-  .step-counts-pbox {
-    height: 1200px;
-  }
+    .step-counts-pbox {
+        height: 1200px;
+    }
 }
-
-
-
-
-
-
 
 /*media screen for  index.html for small devices  from 700px and below */
 @media screen and (max-width: 800px) {
-  #step-counts-heading {
-    height: 580px
-  }
+    #step-counts-heading {
+        height: 580px;
+    }
 
-  .step-counts {
-    font-size: 80px;
-  }
+    .step-counts {
+        font-size: 80px;
+    }
 
-  .step-counts-intro {
-    font-size: 18px;
-    text-align: unset;
-    width: unset;
-  }
+    .step-counts-intro {
+        font-size: 18px;
+        text-align: unset;
+        width: unset;
+    }
 
+    #hero-box-left {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        animation: unset;
+    }
 
+    #hero-box-right {
+        position: unset;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        animation: unset;
+    }
 
-  #hero-box-left {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    animation: unset;
-
-
-  }
-
-  #hero-box-right {
-    position: unset;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    animation: unset;
-
-
-  }
-
-
-
-
-
-
-  .step-counts-pbox p {
-    font-size: 18px;
-  }
+    .step-counts-pbox p {
+        font-size: 18px;
+    }
 }
 
-
-
 @media screen and (max-width: 570px) {
-  .step-counts-pbox {
-    height: 1600px;
-  }
+    .step-counts-pbox {
+        height: 1600px;
+    }
 
-  .bho {
-    width: 100%;
-  }
+    .bho {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 470px) {
-  .step-counts-pbox {
-    height: 1600px;
-    display: inline-table;
-  }
+    .step-counts-pbox {
+        height: 1600px;
+        display: inline-table;
+    }
 }
 @media screen and (max-width: 400px) {
-  #hero-box-left, #hero-box-right {
-    width:60%;
-  }
+    #hero-box-left,
+    #hero-box-right {
+        width: 60%;
+    }
 }
 
 /*media screen for  just-few-steps.html for small devices  from 1200px and below */
 @media screen and (max-width: 1200px) {
-  #instructions-box li {
-    font-size: 25px;
-  }
+    #instructions-box div {
+        font-size: 25px;
+    }
 }
 
 /*media screen for  just-few-steps.html for small devices  from 900px and below */
 @media screen and (max-width: 1200px) {
-  #instructions-box li {
-    width: 45%;
-  }
+    #instructions-box div {
+        width: 45%;
+    }
 }
 
 /*media screen for  just-few-steps.html for small devices  from 600px and below */
 @media screen and (max-width: 600px) {
-  .round-pic {
-    visibility: hidden;
-    position: absolute;
-  }
+    .round-pic {
+        visibility: hidden;
+        position: absolute;
+    }
 
-  #instructions-box li {
-    font-size: 25px;
-    width: 55%;
-  }
+    #instructions-box div {
+        font-size: 25px;
+        width: 55%;
+    }
 }
 
 /*media screen for  just-few-steps.html for small devices  from 500px and below */
 @media screen and (max-width: 500px) {
-  #slogan {
-    float: left;
-    margin: 0;
-    width: unset;
-    padding: 5%;
-  }
+    #slogan {
+        float: left;
+        margin: 0;
+        width: unset;
+        padding: 5%;
+    }
 
-  #dots-like1,
-  #dots-like2,
-  #dots-like3 {
-    visibility: hidden;
-  }
+    #dots-like1,
+    #dots-like2,
+    #dots-like3 {
+        visibility: hidden;
+    }
 
-  #instructions-box li {
-    width: 60%;
-    font-size: 20px;
-  }
+    #instructions-box div {
+        width: 60%;
+        font-size: 20px;
+    }
 
-  #instructions-box {
-    text-align: start;
+    #instructions-box {
+        text-align: start;
+    }
 
+    #instructions-box div {
+        margin: unset;
+        padding-bottom: 2%;
+    }
 
-  }
+    #end-quote {
+        border: unset;
+        border-radius: unset;
+        font-size: 15px;
+        border-bottom: unset;
+    }
 
-  #instructions-box li {
-    margin: unset;
-    padding-bottom: 2%;
-  }
-
-  #end-quote {
-    border: unset;
-    border-radius: unset;
-    font-size: 15px;
-    border-bottom: unset;
-  }
-
-  #heart-beat {
-    animation: unset;
-  }
+    #heart-beat {
+        animation: unset;
+    }
 }
-
 
 /*media screen for size from 1200px and below for why-it-counts.html*/
-@media screen and (max-width:1000px) {
-  #wic-box {
-    height: 620px;
-  }
-
-  
-
+@media screen and (max-width: 1000px) {
+    #wic-box {
+        height: 620px;
+    }
 }
 
+@media screen and (max-width: 800px) {
+    #wic-box {
+        height: 630px;
+    }
 
+    #icon-directive-box-right,
+    #icon-directive-box-left {
+        width: 18%;
+    }
 
-
-
-@media screen and (max-width:800px) {
-  #wic-box {
-    height: 630px;
-
-  }
-
-  #icon-directive-box-right,
-  #icon-directive-box-left {
-    width: 18%;
-  }
-
-  .icon-directive {
-    font-size: 23px;
-
-}
+    .icon-directive {
+        font-size: 23px;
+    }
 }
 
 /*media screen for size from 600px and below for why-it-counts.html*/
-@media screen and (max-width:600px) {
-  
+@media screen and (max-width: 600px) {
+    #icon-directive-box-right,
+    #icon-directive-box-left {
+        width: unset;
+    }
 
-  #icon-directive-box-right,
-  #icon-directive-box-left {
-    width: unset;}
+    #icon-directive-box-left {
+        border-top: #772c2c 6px double;
+    }
 
-  #icon-directive-box-left {
-    border-top: #772c2c 6px double;
-  }
-
-  #gif-container {
-    width: 100%;
-  }
-}@media screen and (max-width:500px) {
-  #wic-box{
-    height:720px;
-    padding-bottom:30%;
+    #gif-container {
+        width: 100%;
+    }
 }
+@media screen and (max-width: 500px) {
+    #wic-box {
+        height: 720px;
+        padding-bottom: 30%;
+    }
 }
-@media screen and (max-width:400px) {
-  #reasons-container {
-    flex-direction:column
-  }
-  
+@media screen and (max-width: 400px) {
+    #reasons-container {
+        flex-direction: column;
+    }
 }
 /*media screen for size from 600px and below for sign-up.html*/
-@media screen and (max-width:500px) {
-  #sign-up-box {
-    width: 80%;
-    left: 0%;
-    top: 1000px;
-  }
+@media screen and (max-width: 500px) {
+    #sign-up-box {
+        width: 80%;
+        left: 0%;
+        top: 1000px;
+    }
 
-  .sign-up {
-    font-size: 17px;
-
-  }
+    .sign-up {
+        font-size: 17px;
+    }
 }
