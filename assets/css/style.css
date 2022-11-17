@@ -7,7 +7,7 @@
 }
 
 body {
-    font-family: Raleway, "open Sans";
+    font-family: Raleway;
     font-weight: 300;
     color: rgba(128, 118, 107, 0.747);
 }
@@ -68,7 +68,7 @@ a {
 .menu a {
     text-decoration: none;
     color: inherit;
-    font-family: "Lobster Two", cursive;
+    font-family: "Lobster Two";
     color: rgb(73, 13, 13);
     padding: 70px;
     font-size: 30px;
@@ -110,7 +110,7 @@ a {
 }
 
 .left-quote {
-    font-family: "Lobster Two", cursive;
+    font-family: "Lobster Two";
     color: rgb(241, 177, 16);
     background-color: rgb(0, 0, 0, 0.4);
     position: absolute;
@@ -129,7 +129,7 @@ a {
 }
 
 #right-quote {
-    font-family: "Lobster Two", cursive;
+    font-family: "Lobster Two";
     color: rgb(241, 177, 16);
     font-size: 45px;
     background-color: rgb(0, 0, 0, 0.4);
@@ -161,7 +161,7 @@ a {
     width: 60%;
     font-size: 18px;
     color: rgb(93 78 54);
-    font-family: "Open Sans";
+    font-family: 'Open Sans', sans-serif;
 
     margin: 2% 5% 2% 5%;
     text-align: center;
@@ -232,7 +232,7 @@ a {
 
 * h4 {
     font-size: 20px;
-    font-family: "slobster two";
+    font-family: "Lobster two";
     color: rgb(73, 13, 13);
     text-align: center;
 }
@@ -580,7 +580,7 @@ li#end-quote {
 .icon-directive {
     font-size: 25px;
     color: rgb(138, 121, 93);
-    font-family: "lobster two";
+    font-family: "Lobster two";
     padding: 8px;
     text-align: center;
 }
@@ -609,7 +609,7 @@ li#end-quote {
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgb(123, 110, 94);
+    background-color:#ed8768;
 }
 
 .reasons {
